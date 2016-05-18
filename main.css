@@ -13,8 +13,7 @@ a {
   right: 0;
   left: 0;
   position: fixed;
-  height: 60px;
-  z-index: 99;
+  height: 100%;
   background-color: #FF7242;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   overflow: hidden;
