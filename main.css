@@ -71,6 +71,9 @@ header a:hover {
   margin-right: 7px;
 }
 
+.active_page {
+  color: #ffc299;
+}
 
 #bi_logo {
   height: 40px;
