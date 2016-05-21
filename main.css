@@ -16,14 +16,18 @@ body {
 header a {
   display: inline-block;
   text-align: center;
-  padding: 10px 15px;
+  padding: 10px 10px;
   text-decoration: none;
   color: #ffffff;
-  /*transition: background-color 0.5s ease;*/
+  transition: color 0.5s ease;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+header a:hover {
+  color: #ffc299;
 }
 
 .top_header {
@@ -63,8 +67,8 @@ header a {
   display: inline;
   text-align: center;
   height: 44px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 
@@ -77,6 +81,6 @@ header a {
 }
 
 #list_space {
-  margin-left: 220px;
-  margin-right: 220px;
+  margin-left: 240px;
+  margin-right: 240px;
 }
