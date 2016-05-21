@@ -1,21 +1,82 @@
 body {
   height: 100%;
-  background-color: #f2f2f2;
-  font-family: "Lato", "Helvetica", sans-serif;
+  background-color: #333333;
+  font-family: 'Rubik', sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
-.top_header {
+.background {
   top: 0;
   right: 0;
   left: 0;
-  position: fixed;
   height: 100%;
-  background-color: #EA521F;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
-  overflow: hidden;
+  position: absolute;
+  background-color: #ff6600;
+}
 
+header a {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #ffffff;
+  /*transition: background-color 0.5s ease;*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.top_header {
+  top: 20px;
+  right: 0;
+  left: 0;
+  position: absolute;
+  display: block;
+  height: 100px;
+  min-width: 1000px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.top_header_content {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 5px;
+  position: relative;
+  /*border: 1px solid #ffffff;*/
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.top_header_content_list {
+  text-align: justify;
+  list-style: none;
+  align-items: center;
+  display: inline-block;
+
+}
+
+.top_header_content_list_item, header ul li {
+  display: inline;
+  text-align: center;
+  height: 44px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+#bi_logo {
+  height: 40px;
+  margin-bottom: -10px;
+  margin-left: -20px;
+  padding-left: 0;
+  pointer-events: none;
+}
+
+#list_space {
+  margin-left: 220px;
+  margin-right: 220px;
 }
