@@ -70,7 +70,7 @@ header a:hover {
   list-style: none;
   align-items: center;
   display: inline-block;
-
+  margin-left: -38px;
 }
 
 .top_header_content_list_item, header ul li {
@@ -85,11 +85,10 @@ header a:hover {
   color: #ffc299;
 }
 
+
 #bi_logo {
   height: 40px;
   margin-bottom: -10px;
-  margin-left: -50px;
-  padding-left: 0;
   pointer-events: none;
 }
 
