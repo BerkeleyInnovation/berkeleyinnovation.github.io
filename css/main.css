@@ -1,7 +1,11 @@
 body {
   height: 100%;
-  background-color: #333333;
+  background-color: #ff6600;
   font-family: 'Rubik', sans-serif;
+}
+
+.index_body {
+  background-color: #333333;
 }
 
 .background {
@@ -11,6 +15,12 @@ body {
   height: 100%;
   position: absolute;
   background-color: #ff6600;
+  margin: 0;
+  padding: 0;
+}
+
+section a {
+  color: #ffffff;
 }
 
 header a {
@@ -78,7 +88,7 @@ header a:hover {
 #bi_logo {
   height: 40px;
   margin-bottom: -10px;
-  margin-left: -20px;
+  margin-left: -50px;
   padding-left: 0;
   pointer-events: none;
 }
@@ -86,4 +96,55 @@ header a:hover {
 #list_space {
   margin-left: 240px;
   margin-right: 240px;
+}
+
+.content {
+  top: 120px;
+  right: 0;
+  left: 0;
+  position: absolute;
+  display: block;
+  height: 100%;
+  min-width: 1000px;
+}
+
+.content_body {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 5px;
+  position: relative;
+  /*border: 1px solid #cccccc;*/
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.officer_grid {
+  /*border: 1px dashed #ffffff;*/
+  height: 100%;
+  margin: 5px 13px;
+  margin-bottom: 70px;
+}
+
+.text_box {
+  /*border: 1px dashed #ffffff;*/
+  height: 100%;
+  margin: -10px 10px;
+  margin-bottom: 30px;
+  padding: 5px 8px;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.icon {
+  width: 30px;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.5em;
+  padding-left: 17px;
+  margin: 10px auto;
 }
