@@ -147,3 +147,84 @@ h1 {
   padding-left: 17px;
   margin: 10px auto;
 }
+
+
+
+
+
+
+/*
+.cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea {
+ 	padding-left: 54px !important;
+}
+.cd-form .user {
+ 	background: url("../img/cd-icon-user.svg") no-repeat 16px center;
+}
+.cd-form [required].user {
+ 	background: url("../img/cd-icon-user.svg") no-repeat 16px center,
+ 				url("../img/cd-required.svg") no-repeat top right;
+}
+
+.cd-form [required] {
+ 	background: url("../img/cd-required.svg") no-repeat top right;
+}
+
+.cd-form .error {
+	border-color: #e94b35 !important;
+}*/
+
+
+#contact {height:100%; margin: 10px 20px; background: #DDD;background-color: #ff944d}
+
+.container {width:880px; height:auto; margin: 0 auto; padding: 25px 0; background-color: #ff944d}
+
+#contact .container form input,
+#contact .container form textarea {
+	width:97%;
+	height:30px;
+	padding:5px 10px;
+	font-size: 12px;
+	color:#999;
+	letter-spacing:1px;
+	background: #FFF;
+	border:2px solid #FFF;
+	margin-bottom:25px;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .container form input:focus,
+#contact .container form textarea:focus {
+	border:2px solid #dd4545;
+	color:#999;}
+
+#contact .container form textarea {
+	height:150px;}
+
+#contact .container form .submit {
+	width:100%;
+	padding:5px 10px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background:#dd4545;
+	height:40px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#FFF;
+	border:2px solid #dd4545;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .container form .submit:hover {
+	color:#FFF;
+  border:2px solid #b43838;
+	background: #b43838;
+	cursor:pointer;}
+
+#contact .container form .required {
+	color:#b43838;}
