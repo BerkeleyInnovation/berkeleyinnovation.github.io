@@ -29,7 +29,7 @@ header a {
   padding: 10px 10px;
   text-decoration: none;
   color: #ffffff;
-  transition: color 0.5s ease;
+  transition: border 0.15s ease;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -38,6 +38,7 @@ header a {
 
 header a:hover {
   color: #ffc299;
+  border-bottom: 3px solid #ffc299;
 }
 
 .top_header {
@@ -82,7 +83,8 @@ header a:hover {
 }
 
 .active_page {
-  color: #ffc299;
+  font-weight: 500;
+  border-bottom: 3px solid #ffffff
 }
 
 
@@ -148,10 +150,25 @@ h1 {
   margin: 10px auto;
 }
 
+footer {
+  height: 120px;
+  background-color: #333333;
+  bottom: -120;
+  right: 0;
+  left: 0;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
 
 
+#alum {
+  margin-bottom: 400px;
+}
 
-
+#process_title {
+  margin-bottom: 1000px;
+}
 
 /*
 .cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea {
@@ -174,9 +191,9 @@ h1 {
 }*/
 
 
-#contact {height:100%; margin: 10px 20px; background: #DDD;background-color: #ff944d}
+#contact {height:100%; margin: 10px 20px; background: #DDD;background-color: #ff944d; margin-bottom: 100px;}
 
-.container {width:880px; height:auto; margin: 0 auto; padding: 25px 0; background-color: #ff944d}
+.container {width:880px; height:auto; margin: 0 auto; padding: 25px 0; background-color: #ff944d;}
 
 #contact .container form input,
 #contact .container form textarea {
