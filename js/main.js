@@ -5,6 +5,8 @@ $(document).ready(function(){
   $(window).scroll(function() {
     if ($(this).scrollTop() > 800) {
         $('.process_box').attr('background-color', '#FFFFFF');
+    } else if (true) {
+
     }
   });
 
