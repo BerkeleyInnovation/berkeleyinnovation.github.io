@@ -137,6 +137,21 @@ header a:hover {
   font-weight: 300;
 }
 
+.process_box {
+  border: 5px solid #ffffff;
+  font-size: 1.3em;
+  font-weight: 300;
+  background-color: #ff6600;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: -10px 10px;
+  margin-bottom: 800px;
+  padding: 5px 8px;
+}
+
 .icon {
   width: 30px;
   margin: 10px;
@@ -161,13 +176,12 @@ footer {
   padding: 0;
 }
 
+#process_title {
+  margin-bottom: 600px;
+}
 
 #alum {
   margin-bottom: 400px;
-}
-
-#process_title {
-  margin-bottom: 1000px;
 }
 
 /*
