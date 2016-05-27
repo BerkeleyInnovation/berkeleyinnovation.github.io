@@ -2,6 +2,8 @@ $(document).ready(function(){
 //   var height = $(window).height();
 //   var scrollTop = $(window).scrollTop();
 
+console.log('ready');
+
   $('.process_box').scroll(function() {
     var pos = $(this).scrollTop();
     if (pos > 500 && pos < 800) {
