@@ -1,6 +1,7 @@
 body {
   background-color: #333333;
   font-family: "Open Sans", sans-serif;
+  color: #333333;
 }
 
 .background {
@@ -112,7 +113,7 @@ header a:hover {
   /*border: 1px solid #cccccc;*/
   font-size: 14px;
   font-weight: 400;
-  color: #000000;
+  color: #333333;
 }
 
 .officer_grid {
@@ -155,10 +156,11 @@ header a:hover {
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 2.5em;
   padding-left: 17px;
   margin: 10px auto;
+  color: #666666;
 }
 
 
