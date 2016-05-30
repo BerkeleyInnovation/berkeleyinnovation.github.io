@@ -29,8 +29,6 @@ table{border-collapse:collapse;border-spacing:0}
 
 .pull-right{float:right}.pull-left{float:left}
 
-
-
 .btn-download{background:rgba(24,42,60,0.92);color:rgba(124,142,160,0.92);padding:20px 50px;display:inline-block;-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;border-radius:5px}.btn-download:hover{background:rgba(94,112,130,0.92)}
 .wrapper{max-width:1000px;margin:0 auto}.wrapper:before,.wrapper:after{content:'';display:table;clear:both}
 
@@ -41,6 +39,7 @@ table{border-collapse:collapse;border-spacing:0}
 .pic{max-width:221px;max-height:221px;position:relative;overflow:hidden;margin:6px;display:inline-block;-webkit-animation:anima 2s;-moz-animation:anima 2s;-o-animation:anima 2s;-ms-animation:anima 2s;animation:anima 2s;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-o-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden}
 .pic-3d{-webkit-perspective:500;-moz-perspective:500;-o-perspective:500;-ms-perspective:500;perspective:500;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
 
+#big-pic {min-width:457px;min-height:457px;position:relative;overflow:hidden;margin:6px;display:inline-block;-webkit-animation:anima 2s;-moz-animation:anima 2s;-o-animation:anima 2s;-ms-animation:anima 2s;animation:anima 2s;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-o-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden}
 
 .pic-caption {
   cursor:default;
