@@ -1,19 +1,19 @@
 body {
-  background-color: #333333;
+  background-color: #ffffff;
   font-family: "Open Sans", sans-serif;
   color: #333333;
 }
 
-.background {
+/*.background {
   top: 0;
   right: 0;
   left: 0;
-  bottom: -600px;
-  position: absolute;
+  bottom: 0;
+  position: absolute;;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
-}
+}*/
 
 section a {
   color: #ff6600;
@@ -167,12 +167,20 @@ h1 {
 footer {
   height: 120px;
   background-color: #333333;
-  bottom: -120;
+  bottom: 0%;
   right: 0;
   left: 0;
-  position: absolute;
-  margin: 0;
-  padding: 0;
+  position: relative;
+}
+
+.footer_content {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: normal;
+  padding-top: 40px;
+  color: #e6e6e6;
 }
 
 #process_title {
