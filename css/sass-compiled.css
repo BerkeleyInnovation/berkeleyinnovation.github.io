@@ -43,6 +43,14 @@ table{border-collapse:collapse;border-spacing:0}
 #wide-pic {min-width:457px;min-height:221px;position:relative;overflow:hidden;margin:6px;display:inline-block;-webkit-animation:anima 2s;-moz-animation:anima 2s;-o-animation:anima 2s;-ms-animation:anima 2s;animation:anima 2s;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-o-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden}
 #pushed-up-pic {min-width:221px;min-height:221px;position:relative;overflow:hidden;padding-top: -230px;display:inline-block;-webkit-animation:anima 2s;-moz-animation:anima 2s;-o-animation:anima 2s;-ms-animation:anima 2s;animation:anima 2s;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-o-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden}
 
+.column {
+  display: inline-block;
+  /*border: 1px solid black;*/
+  width: 470px;
+}
+
+
+
 .pic-caption {
   cursor:default;
   position:absolute;
