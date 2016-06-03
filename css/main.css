@@ -186,11 +186,24 @@ header a:hover {
   padding: 5px 8px;
 }
 
+.process_title {
+  /*color: #ff6600;*/
+  margin-bottom: 200px;
+  border-right: 1px solid #ff6600;
+  padding-right: 10px;
+}
+
 .icon {
   width: 30px;
   margin: 10px;
   margin-top: 50px;
 }
+
+
+#alum {
+  margin-bottom: 400px;
+}
+
 
 h1 {
   font-family: "Playfair Display", serif;
@@ -248,24 +261,56 @@ footer {
   max-width: 950px;
   text-align: left;
   font-size: 0.7em;
-  font-weight: normal;
+  font-weight: 300;
   border-top: 1px solid #ff6600;
+}
+
+footer a {
+  text-align: center;
+  padding-right: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: normal;
+  color: gray;
+}
+footer a:hover {
+  color: #b3b3b3;
 }
 
 .footer_text {
   color: gray;
+  font-weight: normal;
+  margin-top: 10px;
+  padding-left: 8px;
 }
 
-.process_title {
-  /*color: #ff6600;*/
-  margin-bottom: 200px;
-  border-right: 1px solid #ff6600;
-  padding-right: 10px;
+.footer_icons {
+  border: 1px solid black;
+  float: right;
+  width: 300px;
+  height: 50px;
+}
+.footer_icons a {
+  text-align: center;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: normal;
+  color: gray;
 }
 
-#alum {
-  margin-bottom: 400px;
+.footer_icon {
+  width: 100px;
+  height: 100px;
+  background:transparent url("https://lh5.googleusercontent.com/m6o5IgBoxtQ5--ZPejt3o0LfEF80-nRHgMKIfLf95OdOn1F0YEWLn_pDsWRZxzFc742lWA=s190") center top no-repeat;
+
 }
+.footer_icon:hover {
+  background:transparent url("https://lh4.googleusercontent.com/hOg98H_cBaiC4e-FCV8W_vy_wnHs74h9ObVL6FZ10cCm7f_FC7QYWY40T9_L6MF7t-Ds7w=s190") center top no-repeat;
+}
+
+
 
 /*
 .cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea {
