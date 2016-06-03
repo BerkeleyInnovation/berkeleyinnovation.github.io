@@ -236,7 +236,7 @@ h7 {
 
 footer {
   height: 120px;
-  background-color: #333333;
+  /*background-color: #333333;*/
   bottom: 0%;
   right: 0;
   left: 0;
@@ -245,12 +245,15 @@ footer {
 
 .footer_content {
   margin: 0 auto;
-  max-width: 400px;
-  text-align: center;
+  max-width: 950px;
+  text-align: left;
   font-size: 0.7em;
   font-weight: normal;
-  padding-top: 40px;
-  color: #e6e6e6;
+  border-top: 1px solid #ff6600;
+}
+
+.footer_text {
+  color: gray;
 }
 
 .process_title {
