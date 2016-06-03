@@ -129,9 +129,24 @@ header a:hover {
   margin: -10px 10px;
   margin-bottom: 30px;
   padding: 5px 8px;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 300;
 }
+
+#quote_box {
+  /*border: 1px dashed black;*/
+  height: 100%;
+  margin: -10px 10px;
+  margin-bottom: 30px;
+  padding: 5px 8px;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-style: italic;
+
+}
+
+
+
 
 .process_box {
   border: 5px solid #ffffff;
@@ -163,6 +178,19 @@ h1 {
   color: #666666;
 }
 
+h5 {
+  margin-top: -20px;
+  text-align: right;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h6 {
+  font-size: 1em;
+  display: inline;
+  color: #ff6600;
+  font-weight: 300;
+}
 
 footer {
   height: 120px;
@@ -185,6 +213,7 @@ footer {
 
 #process_title {
   /*color: #ff6600;*/
+  margin-bottom: -10px;
 }
 
 #alum {
