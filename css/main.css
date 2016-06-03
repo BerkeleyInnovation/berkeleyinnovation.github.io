@@ -145,8 +145,24 @@ header a:hover {
 
 }
 
+.title_column {
+  display: inline-block;
+  /*border: 1px solid black;*/
+  width: 280px;
+  top: -552px;
+  text-align: right;
+  position: relative;
+}
+.text_column {
+  display: inline-block;
+  /*border-left: 0.5px solid #ff6600;*/
+  width: 650px;
+  margin-top: -20px;
+}
 
-
+#wide_figure {
+  width: 100%;
+}
 
 .process_box {
   border: 5px solid #ffffff;
@@ -172,7 +188,16 @@ header a:hover {
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 2.5em;
+  font-size: 2.8em;
+  padding-left: 17px;
+  margin: 10px auto;
+  color: #666666;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 2.2em;
   padding-left: 17px;
   margin: 10px auto;
   color: #666666;
@@ -211,9 +236,11 @@ footer {
   color: #e6e6e6;
 }
 
-#process_title {
+.process_title {
   /*color: #ff6600;*/
-  margin-bottom: -10px;
+  margin-bottom: 200px;
+  border-right: 1px solid #ff6600;
+  padding-right: 10px;
 }
 
 #alum {
