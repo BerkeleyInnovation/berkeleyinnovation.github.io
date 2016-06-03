@@ -136,20 +136,20 @@ header a:hover {
 #quote_box {
   /*border: 1px dashed black;*/
   height: 100%;
-  margin: -10px 10px;
-  margin-bottom: 30px;
+  margin: 0px 10px;
+  margin-bottom: 20px;
   padding: 5px 8px;
   font-size: 1.1em;
   font-weight: 500;
   font-style: italic;
-
+  color: gray;
 }
 
 .title_column {
   display: inline-block;
   /*border: 1px solid black;*/
   width: 280px;
-  top: -552px;
+  top: -600px;
   text-align: right;
   position: relative;
 }
@@ -157,11 +157,18 @@ header a:hover {
   display: inline-block;
   /*border-left: 0.5px solid #ff6600;*/
   width: 650px;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 #wide_figure {
   width: 100%;
+}
+
+#side_pic {
+  width: 320px;
+  float: right;
+  margin-right: -10px;
+  margin-left: 10px;
 }
 
 .process_box {
@@ -216,6 +223,16 @@ h6 {
   color: #ff6600;
   font-weight: 300;
 }
+
+h7 {
+  font-size: 0.7em;
+  display: inline;
+  color: #bfbfbf;
+  font-weight: 300;
+  text-align: right;
+  font-style: italic;
+}
+
 
 footer {
   height: 120px;
