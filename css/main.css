@@ -285,32 +285,50 @@ footer a:hover {
 }
 
 .footer_icons {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   float: right;
-  width: 300px;
+  width: 200px;
   height: 50px;
+  margin-top: 10px;
 }
 .footer_icons a {
   text-align: center;
   padding-right: 30px;
   padding-bottom: 30px;
+  margin-left: 0px;
   text-decoration: none;
   font-size: 1em;
   font-weight: normal;
   color: gray;
 }
 
-.footer_icon {
-  width: 100px;
-  height: 100px;
-  background:transparent url("https://lh5.googleusercontent.com/m6o5IgBoxtQ5--ZPejt3o0LfEF80-nRHgMKIfLf95OdOn1F0YEWLn_pDsWRZxzFc742lWA=s190") center top no-repeat;
-
+.fb_icon {
+  background:transparent url("https://lh5.googleusercontent.com/2WiU2VfirmR8AzzO8wfcyCed3uc_EvzGwUyLgL5bjEQujZCpL2OKFqbrMPCBK2XMFkr0cg=s190") center top no-repeat;
 }
-.footer_icon:hover {
-  background:transparent url("https://lh4.googleusercontent.com/hOg98H_cBaiC4e-FCV8W_vy_wnHs74h9ObVL6FZ10cCm7f_FC7QYWY40T9_L6MF7t-Ds7w=s190") center top no-repeat;
+.fb_icon:hover {
+  background:transparent url("https://lh4.googleusercontent.com/p4zb8slbMBXATHNhlhTgvRjrfj6HT2liFnz1HWgAo6njhEgQtxYaenJiUxaIZ4Kt2t87Ng=s190") center top no-repeat;
 }
 
+.tw_icon {
+  background:transparent url("https://lh3.googleusercontent.com/eKvgs54S1IFUemfDaRE7B7tGqFpW9QYSGQDi5CQaHZu6ojDXxlf_J-QCUr3xpwoaiPO1mg=s190") center top no-repeat;
+}
+.tw_icon:hover {
+  background:transparent url("https://lh5.googleusercontent.com/jOFAyC09YEbBA0_jcZ5lC17KY98YqMVBts8L7hRbZ8AUv1AUWe-BOXWTAs6dc1qJct3-sw=s190") center top no-repeat;
+}
 
+.li_icon {
+  background:transparent url("https://lh5.googleusercontent.com/Dt1ahq9v0hstsSTz3S9SlCcf4WcVFJT1H1GGlq0WCdHLvPvAa6dte8kPCFs3itP0CI2pww=s190") center top no-repeat;
+}
+.li_icon:hover {
+  background:transparent url("https://lh5.googleusercontent.com/i4egz4Daxm6kfUnjwI-lX-46XKfO-W4xvRNtlNw7_Sxx0pUM-Wr-dWZ9s5f7pOaag1D0Nw=s190") center top no-repeat;
+}
+
+.yt_icon {
+  background:transparent url("https://lh6.googleusercontent.com/p-h6zgp3pm2zQUFAHekRBCCy_lxTCoC4iH7FiLzR7cJrmRZTdTHMOBAE7rmKFlVG2pmY8g=s190") center top no-repeat;
+}
+.yt_icon:hover {
+  background:transparent url("https://lh3.googleusercontent.com/lQpt6s4YuCH6ZiGfekdlqB97lBNnUgROTuBMmWwGqZ1V-2hc8l36TbxRxJ3NGwj7agv2YQ=s190") center top no-repeat;
+}
 
 /*
 .cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea {
