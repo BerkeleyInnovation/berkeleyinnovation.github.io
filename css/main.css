@@ -149,7 +149,7 @@ header a:hover {
   display: inline-block;
   /*border: 1px solid black;*/
   width: 280px;
-  top: -600px;
+  top: -125px;
   text-align: right;
   position: relative;
 }
@@ -161,7 +161,8 @@ header a:hover {
 }
 
 #wide_figure {
-  width: 100%;
+  width: 90%;
+  margin-left: 50px;
 }
 
 #side_pic {
