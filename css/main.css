@@ -17,6 +17,12 @@ body {
 
 section a {
   color: #ff6600;
+  text-decoration: none;
+}
+
+section a:hover {
+  color: #ff6600;
+  text-decoration: underline;
 }
 
 header a {
@@ -25,7 +31,7 @@ header a {
   padding: 10px 10px;
   text-decoration: none;
   color: #ff6600;
-  transition: border 0.15s ease;
+  transition: border 0.2s ease;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -34,7 +40,7 @@ header a {
 
 header a:hover {
   color: #ffc299;
-  border-bottom: 3px solid #ffc299;
+  border-bottom: 8px solid #ffc299;
 }
 
 .top_header {
@@ -80,7 +86,7 @@ header a:hover {
 
 .active_page {
   font-weight: 600;
-  border-bottom: 3px solid #ff6600
+  border-bottom: 8px solid #ff6600
 }
 
 
@@ -203,10 +209,15 @@ header a:hover {
 
 table {
   width: 100%;
-  height: 300px;
-  border: 1px solid black;
+  height: 130px;
 }
 
+td {
+  /*border: 1px solid black;*/
+}
+.table_logo {
+  height: 75px;
+}
 
 
 h1 {
