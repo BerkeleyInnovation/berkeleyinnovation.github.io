@@ -201,9 +201,12 @@ header a:hover {
 }
 
 
-#alum {
-  margin-bottom: 400px;
+table {
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
 }
+
 
 
 h1 {
@@ -246,6 +249,9 @@ h7 {
   text-align: right;
   font-style: italic;
 }
+
+
+
 
 
 footer {
