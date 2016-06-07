@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  console.log('ready');
   /* Code for potential scrolling process box */
   // var height = $(window).height();
   // var scrollTop = $(window).scrollTop();
@@ -14,19 +13,26 @@ $(document).ready(function(){
   //   }});
 
 
-  $(".subheader").attr("display", "none");
+  // Start with no visible subheader
+  $(".subheader").fadeOut(0);
+  // var topHovered = false;
+  // var subHovered = false;
 
+  // Hovering makes subheader appear
   $(".active_page").hover(function(){
-    $(".subheader").fadeIn(200);
+    $(".subheader").fadeIn(300);
+
+    $(".subheader").hover(function(){
+      $(".subheader").fadeIn(0);
+    }, function() {
+      $(".subheader").fadeOut(0);
+    });
+
   }, function() {
-    $(".subheader").fadeOut(200);
+    $(".subheader").fadeOut(0);
   });
 
-  $(".subheader").hover(function(){
-    $(".subheader").fadeIn(200);
-  }, function() {
-    $(".subheader").fadeOut(200);
-  });
+
 
 
 });
