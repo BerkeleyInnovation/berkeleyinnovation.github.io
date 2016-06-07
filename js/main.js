@@ -13,7 +13,13 @@ $(document).ready(function(){
   //       console.log('passed more');
   //   }});
 
-
+  $(".top_header_content_list_item").hover(function(){
+    $(".subheader").fadeIn(200);
+    console.log('fade in');
+  }, function() {
+    $(".subheader").fadeOut(200);
+    console.log('fade out');
+  });
 
 
 
