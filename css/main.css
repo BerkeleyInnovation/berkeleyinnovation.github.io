@@ -94,11 +94,11 @@ header a:hover {
   padding: 0;
   position: relative;
   font-style: italic;
-  z-index: 10;
+  z-index: 100;
 }
 #subheader_process {
   float: right;
-  right: 225px;
+  right: 226px;
   bottom: 28px;
   /*border: 1px solid black;*/
   padding: 0;
@@ -108,7 +108,7 @@ header a:hover {
 }
 #subheader_partner {
   float: right;
-  right: 21px;
+  right: -20px;
   bottom: 28px;
   /*border: 1px solid black;*/
   padding: 0;
