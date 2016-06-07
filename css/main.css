@@ -84,6 +84,26 @@ header a:hover {
   margin-right: 7px;
 }
 
+
+.subheader {
+  float: right;
+  right: 100px;
+  bottom: 20px;
+  border: 1px solid black;
+  padding: 0;
+  position: relative;
+}
+.subheader a {
+  /*-webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: element;
+  user-select: all;*/
+}
+.subheader a:hover {
+  color: #ffc299;
+  border-bottom: 0px solid #ffc299;
+}
+
 .active_page {
   font-weight: 600;
   border-bottom: 8px solid #ff6600

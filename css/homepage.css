@@ -49,7 +49,7 @@ header a {
 
 header a:hover {
   color: #ffc299;
-  border-bottom: 3px solid #ffc299;
+  border-bottom: 8px solid #ffc299;
 }
 
 .top_header {
@@ -95,7 +95,7 @@ header a:hover {
 
 .active_page {
   font-weight: 500;
-  border-bottom: 3px solid #ffffff
+  border-bottom: 8px solid #ffffff
 }
 
 
