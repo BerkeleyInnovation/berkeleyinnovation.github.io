@@ -37,10 +37,12 @@ header a {
   -ms-user-select: none;
   user-select: none;
 }
-
 header a:hover {
   color: #ffc299;
   border-bottom: 8px solid #ffc299;
+}
+.hovered_a {
+  transition: border 0s ease;
 }
 
 .top_header {
@@ -87,6 +89,26 @@ header a:hover {
 .subheader {
   float: right;
   right: 305px;
+  bottom: 28px;
+  /*border: 1px solid black;*/
+  padding: 0;
+  position: relative;
+  font-style: italic;
+  z-index: 10;
+}
+#subheader_process {
+  float: right;
+  right: 225px;
+  bottom: 28px;
+  /*border: 1px solid black;*/
+  padding: 0;
+  position: relative;
+  font-style: italic;
+  z-index: 10;
+}
+#subheader_partner {
+  float: right;
+  right: 21px;
   bottom: 28px;
   /*border: 1px solid black;*/
   padding: 0;
