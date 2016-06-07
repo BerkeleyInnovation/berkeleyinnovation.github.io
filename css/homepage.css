@@ -1,11 +1,6 @@
 body {
-  background-color: #ff6600;
-  font-family: "Open Sans", sans-serif;
-}
-
-.index_body {
-  height: 100%;
   background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
 .background {
@@ -194,8 +189,10 @@ header a:hover {
   margin: -10px 10px;
   margin-bottom: 30px;
   padding: 5px 8px;
-  font-size: 1.1em;
+  font-size: 0.73em;
   font-weight: 300;
+  color: white;
+
 }
 
 .process_box {
@@ -229,14 +226,13 @@ h1 {
 
 
 
-
 footer {
-  height: 120px;
+  height: 100px;
   /*background-color: #333333;*/
-  bottom: 0%;
   right: 0;
   left: 0;
-  position: relative;
+  bottom: -110px;
+  position: absolute;
 }
 
 .footer_content {
@@ -245,7 +241,6 @@ footer {
   text-align: left;
   font-size: 0.7em;
   font-weight: 300;
-  margin-top: 40%;
 }
 
 footer a {
