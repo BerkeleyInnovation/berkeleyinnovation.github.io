@@ -137,13 +137,6 @@ header a:hover {
 }
 
 
-
-
-.active_page {
-  font-weight: 600;
-  border-bottom: 8px solid #ff6600
-}
-
 #bi_logo {
   height: 40px;
   margin-bottom: -10px;
@@ -186,29 +179,19 @@ header a:hover {
 .text_box {
   /*border: 1px dashed #ffffff;*/
   height: 100%;
-  margin: -10px 10px;
   margin-bottom: 30px;
   padding: 5px 8px;
   font-size: 0.73em;
   font-weight: 300;
   color: white;
 
+  text-align: center;
+
+  position: relative;
+  margin: 0 auto;
+
 }
 
-.process_box {
-  border: 5px solid #ffffff;
-  font-size: 1.3em;
-  font-weight: 300;
-  background-color: #ff6600;
-
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: -10px 10px;
-  margin-bottom: 800px;
-  padding: 5px 8px;
-}
 
 .icon {
   width: 30px;
@@ -218,11 +201,17 @@ header a:hover {
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-weight: 500;
-  font-size: 2.5em;
+  font-weight: 700;
+  font-size: 2.8em;
   padding-left: 17px;
   margin: 10px auto;
+  color: #ffffff;
+
 }
+
+
+
+
 
 
 
