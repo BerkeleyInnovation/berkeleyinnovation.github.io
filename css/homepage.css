@@ -91,7 +91,7 @@ header a:hover {
 
 .subheader {
   float: right;
-  right: 305px;
+  right: 307px;
   bottom: 28px;
   /*border: 1px solid black;*/
   padding: 0;
@@ -220,11 +220,11 @@ footer {
   /*background-color: #333333;*/
   right: 0;
   left: 0;
-  bottom: -310px;
+  bottom: -210px;
   position: absolute;
   background-color: #ffffff;
   padding-top: 10px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 
 }
 
