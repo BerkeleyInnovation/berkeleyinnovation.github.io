@@ -220,8 +220,12 @@ footer {
   /*background-color: #333333;*/
   right: 0;
   left: 0;
-  bottom: -110px;
+  bottom: -310px;
   position: absolute;
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 200px;
+
 }
 
 .footer_content {
