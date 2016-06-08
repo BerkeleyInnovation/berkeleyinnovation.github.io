@@ -1,17 +1,6 @@
 body {
-  background-color: #ffffff;
+  background-color: #333;
   font-family: "Open Sans", sans-serif;
-}
-
-.background {
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 100%;
-  position: absolute;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0;
 }
 
 .background_orange {
@@ -95,70 +84,21 @@ header a:hover {
   margin-right: 7px;
 }
 
-.subheader {
-  float: right;
-  right: 307px;
-  bottom: 28px;
-  /*border: 1px solid black;*/
-  padding: 0;
-  position: relative;
-  font-style: italic;
-  z-index: 10;
-}
-#subheader_process {
-  float: right;
-  right: 225px;
-  bottom: 28px;
-  /*border: 1px solid black;*/
-  padding: 0;
-  position: relative;
-  font-style: italic;
-  z-index: 10;
-}
-#subheader_partner {
-  float: right;
-  right: -20px;
-  bottom: 28px;
-  /*border: 1px solid black;*/
-  padding: 0;
-  position: relative;
-  font-style: italic;
-  z-index: 10;
-}
-.subheader_content_list_item, .subheader li {
-  display: block;
-  text-align: left;
-  height: 33px;
-}
-/*.subheader {
-  -webkit-user-select: all;
-  -moz-user-select: all;
-  -ms-user-select: element;
-  user-select: all;
-}*/
-
-.subheader a:hover {
-  color: #ffc299;
-  border-bottom: 0px solid #ffc299;
-}
-
 
 #bi_logo {
-  height: 40px;
+  height: 60px;
   margin-bottom: -10px;
   pointer-events: none;
 }
-
 #list_space {
   margin-left: 240px;
   margin-right: 240px;
 }
 
 .content {
-  top: 120px;
   right: 0;
   left: 0;
-  position: absolute;
+  position: relative;;
   display: block;
   height: 100%;
   min-width: 1000px;
@@ -176,26 +116,32 @@ header a:hover {
 }
 
 .officer_grid {
-  /*border: 1px dashed #ffffff;*/
   height: 100%;
   margin: 5px 13px;
   margin-bottom: 70px;
 }
 
 .text_box {
-  /*border: 1px dashed #ffffff;*/
-  height: 100%;
+  /*border: 1px solid #ffffff;*/
+  height: 300px;
+  width: 400px;
   margin-bottom: 30px;
   padding: 5px 8px;
-  font-size: 0.73em;
+  font-size: 1em;
   font-weight: 300;
   color: white;
 
   text-align: center;
 
-  position: relative;
-  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 
@@ -222,15 +168,13 @@ h1 {
 
 
 footer {
-  height: 100px;
-  /*background-color: #333333;*/
   right: 0;
   left: 0;
-  bottom: -210px;
+  bottom: 0;
   position: absolute;
-  background-color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
+  /*padding-bottom: 100px;*/
+  /*border: 1px solid white;*/
 
 }
 
@@ -248,61 +192,16 @@ footer a {
   text-decoration: none;
   font-size: 1em;
   font-weight: normal;
-  color: gray;
+  color: #ffffff;
 }
 footer a:hover {
   color: #b3b3b3;
 }
 
 .footer_text {
-  color: gray;
+  color: #ffffff;
   font-weight: normal;
   margin-top: 10px;
   padding-left: 8px;
-}
-
-.footer_icons {
-  /*border: 1px solid black;*/
   float: right;
-  width: 200px;
-  height: 50px;
-  margin-top: 10px;
-}
-.footer_icons a {
-  text-align: center;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  margin-left: 0px;
-  text-decoration: none;
-  font-size: 1em;
-  font-weight: normal;
-  color: gray;
-}
-
-.fb_icon {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/facebook28.png") center top no-repeat;
-}
-.fb_icon:hover {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/facebook28_ro.png") center top no-repeat;
-}
-
-.tw_icon {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/twitter2828.png") center top no-repeat;
-}
-.tw_icon:hover {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/twitter28_ro.png") center top no-repeat;
-}
-
-.li_icon {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/linkedin28.png") center top no-repeat;
-}
-.li_icon:hover {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/linkedin28_ro.png") center top no-repeat;
-}
-
-.yt_icon {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/youtube28.png") center top no-repeat;
-}
-.yt_icon:hover {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/youtube28_ro.png") center top no-repeat;
 }
