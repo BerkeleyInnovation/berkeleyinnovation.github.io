@@ -20,6 +20,11 @@
       <section class="content">
         <div class="text_box">
           <img id="bi_logo" src="media/logo_white.png">
+          <form id="ajax-contact" name="htmlform" method="post" action="mailer.php">
+            <input type="email" id="email" name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" required>
+            <input type="password" id="pw" name="pw" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required>
+            <!-- <button name="send" type="submit" class="submit">SEND</button> -->
+          </form>
         </div>
       </section>
 

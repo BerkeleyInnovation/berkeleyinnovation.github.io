@@ -17,7 +17,6 @@ body {
   background: -o-linear-gradient(bottom right, #ff4400, #FFA100); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(bottom right, #ff4400, #FFA100); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #ff4400, #FFA100); /* Standard syntax */
-
 }
 
 section a {
@@ -87,7 +86,7 @@ header a:hover {
 
 #bi_logo {
   height: 60px;
-  margin-bottom: -10px;
+  margin-bottom: 5px;
   pointer-events: none;
 }
 #list_space {
@@ -102,6 +101,8 @@ header a:hover {
   display: block;
   height: 100%;
   min-width: 1000px;
+  color:#ffffff;
+
 }
 
 .content_body {
@@ -115,21 +116,14 @@ header a:hover {
   color: #ffffff;
 }
 
-.officer_grid {
-  height: 100%;
-  margin: 5px 13px;
-  margin-bottom: 70px;
-}
-
 .text_box {
   /*border: 1px solid #ffffff;*/
   height: 300px;
-  width: 400px;
+  width: 300px;
   margin-bottom: 30px;
-  padding: 5px 8px;
   font-size: 1em;
   font-weight: 300;
-  color: white;
+  color:#ffffff;
 
   text-align: center;
 
@@ -160,10 +154,6 @@ h1 {
   color: #ffffff;
 
 }
-
-
-
-
 
 
 
@@ -205,3 +195,70 @@ footer a:hover {
   margin-top: 10px;
   float: right;
 }
+
+
+
+
+
+
+form input {
+  width: 80%;
+	height:30px;
+	padding:5px 0px;
+  padding-left: 3px;
+	font-size: 14px;
+  color: #ffffff;
+	letter-spacing:1px;
+	background: none;
+  border: none;
+	border-bottom:3px solid #fff;
+	margin-top:30px;
+
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+form input:focus {
+	color: #fff;
+  outline-width: 0;
+}
+
+form .submit {
+	width:200px;
+	padding:5px 10px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background:#dd4545;
+	height:40px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#FFF;
+	border:2px solid #dd4545;
+
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;
+}
+
+form .submit:hover {
+	color:#FFF;
+  border:2px solid #b43838;
+	background: #b43838;
+	cursor:pointer;}
+
+form .required {
+	color:#b43838;}
+
+
+  *::-webkit-input-placeholder {
+      color: white;}
+  *:-moz-placeholder {
+      color: white;}
+  *::-moz-placeholder {
+      color: white;}
+  *:-ms-input-placeholder {
+      color: white;}
