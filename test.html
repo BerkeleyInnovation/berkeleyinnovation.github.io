@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Partner - Berkeley Innovation</title>
+    <title>{design.} DeCal</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="icon" type="image/png" href="media/site_logo.png">
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,900' rel='stylesheet' type='text/css'>
@@ -11,8 +11,7 @@
 
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/app.js"></script>
-    <link rel="canonical" href="https://berkeleyinnovation.org/partner/">
+    <link rel="canonical" href="https://berkeleyinnovation.org/decal/">
 
   </head>
 
@@ -32,13 +31,13 @@
             <a href="/about" id="about">ABOUT</a>
           </li>
           <li class="top_header_content_list_item">
-            <a href="/process" id="process">PROCESS</a>
+            <a href="/process" class="active_page" id="process">PROCESS</a>
           </li>
           <li class="top_header_content_list_item">
             <a href="/portfolio">PORTFOLIO</a>
           </li>
           <li class="top_header_content_list_item">
-            <a href="/partner" class="active_page" id="partner">PARTNER</a>
+            <a href="/partner" id="partner">PARTNER</a>
           </li>
         </ul>
 
@@ -82,50 +81,52 @@
 
     <section class="content">
       <div class="content_body">
-        <h1 id="partner_with_us">Partner With Us</h1>
+        <h1>Welcome to {design.}</h1>
         <div class="text_box">
-          <p>[PARTNERING PACKAGES] Berkeley Innovation (BI) is UC Berkeley's premier student-run, human-centered design consultancy.
-            Established in 2003, our mission is to be the center of human-centered design through education, practice, and thought leadership.
-            We're a collection of thinkers, makers, tinkerers, and doers from a wide range of disciplines but with a shared love for design innovation.</p>
-          <p>To foster an interdisciplinary community of design thinkers and innovators and to encourage the application of human-centered design skills to real world problems.
-            To encourage an interdisciplinary community of design thinkers and innovators to apply the human-centered design philosophy to real world problems.
-            To connect humans and collaborate innovation.</p>
+          <img id="side_pic" src="media/English_dt_600px.png">
+          <p>Our creative approach to the human-centered design process is what makes us Berkeley Innovation.
+            We thus thrive at the intersection of desirability, viability, and feasibility.</p>
+          <div id="quote_box">“<h6>Design thinking</h6> is a <h6>human-centered</h6> approach to <h6>innovation</h6> that draws from the designer’s toolkit to integrate the <h6>needs of people</h6>, the possibilities of technology, and the requirements for <h6>business success</h6>.” <h5>- Tim Brown, CEO of IDEO</h5> </div>
         </div>
 
-        <h1 id="past_sponsors">Past Sponsors</h1>
         <div class="text_box">
-            <p> Since 2003, we have worked with companies such as these [INACCURATE TABLE BELOW]: </p>
-            <table>
-              <tr>
-                <td><a href="http://www.adobe.com/"><img class="table_logo" src="media/companies/adobe.png"></a></td>
-                <td><a href="https://www.quora.com/"><img class="table_logo" style="height: 45px" src="media/companies/quora.png"></a></td>
-                <td><a href="https://www.apple.com/"><img class="table_logo" src="media/companies/apple.png"></a></td>
-                <td><a href="https://www.google.com/"><img class="table_logo" src="media/companies/google.png"></a></td>
-                <td><a href="https://www.berkeley.edu/"><img class="table_logo" src="media/companies/berkeley.png"></a></td>
-              </tr>
-            </table>
-            <table>
-              <tr>
-                <td><a href="http://mlb.mlb.com/home"><img class="table_logo" style="height: 60px" src="media/companies/mlb.png"></a></td>
-                <td><a href="http://www.cisco.com/"><img class="table_logo" src="media/companies/cisco.png"></a></td>
-                <td><a href="https://gradescope.com/"><img class="table_logo" src="media/companies/gradescope.png"></a></td>
-              </tr>
-            </table>
-        </div>
 
-        <h1 id="contact_us">Contact Us</h1>
-        <div id="form-messages"></div>
-        <section id="contact">
-          <div class="container">
-            <form id="ajax-contact" name="htmlform" method="post" action="mailer.php">
-            <input type="text" id="name" name="name" placeholder="NAME" required>
-            <input  type="email" id="email" name="email" placeholder="EMAIL" required>
-            <textarea name="comments" id="message" placeholder="MESSAGE" required ></textarea>
-            <button name="send" type="submit" class="submit">SEND</button>
-            </form>
+          <form id="contact" name="contact" method="post">
+            <fieldset>
+              <label for="name" id="name">Name<span class="required">*</span></label>
+              <input type="text" name="name" id="name" size="30" value="" required/>
+
+              <label for="email" id="email">Email<span class="required">*</span></label>
+              <input type="text" name="email" id="email" size="30" value="" required/>
+
+              <label for="phone" id="phone">Phone</label>
+              <input type="text" name="phone" id="phone" size="30" value="" />
+
+              <label for="Message" id="message">Message<span class="required">*</span></label>
+              <textarea name="message" id="message" required></textarea>
+
+              <label for="Captcha" id="captcha">Name the small house pet that says "<i>meow</i>"<span class="required">*</span></label>
+              <input type="text" name="captcha" value="" required/>
+
+              <input id="submit" type="submit" name="submit" value="Send" />
+            </fieldset>
+          </form>
+
+          <div id="success">
+            <span>
+              <p>Your message was sent succssfully! I will be in touch as soon as I can.</p>
+            </span>
           </div>
-        </section>
 
+          <div id="error">
+            <span>
+              <p>Something went wrong, try refreshing and submitting the form again.</p>
+            </span>
+          </div>
+
+
+
+        </div>
 
 
       </div>
@@ -172,27 +173,18 @@
         </div>
       </footer>
 
+
     </section>
   </div>
-  <!-- <script>
-if( $('.floating-labels').length > 0 ) floatLabels();
 
-function floatLabels() {
-	var inputFields = $('.floating-labels .cd-label').next();
 
-	inputFields.each(function(){
-		var singleInput = $(this);
 
-		singleInput.keyup(function(){
-			checkVal(singleInput);
-		});
-	});
-}
-  </script> -->
+
+
+
+
+
+
 
   </body>
-
-
-
-
 </html>
