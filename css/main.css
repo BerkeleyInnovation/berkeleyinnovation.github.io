@@ -413,26 +413,6 @@ footer a:hover {
   background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/youtube28_ro.png") center top no-repeat;
 }
 
-/*
-.cd-form .icon input, .cd-form .icon select, .cd-form .icon textarea {
- 	padding-left: 54px !important;
-}
-.cd-form .user {
- 	background: url("../img/cd-icon-user.svg") no-repeat 16px center;
-}
-.cd-form [required].user {
- 	background: url("../img/cd-icon-user.svg") no-repeat 16px center,
- 				url("../img/cd-required.svg") no-repeat top right;
-}
-
-.cd-form [required] {
- 	background: url("../img/cd-required.svg") no-repeat top right;
-}
-
-.cd-form .error {
-	border-color: #e94b35 !important;
-}*/
-
 
 #contact {height:100%; margin: 10px 20px; background: #DDD;background-color: #ffffff; margin-bottom: 100px;}
 
@@ -464,7 +444,8 @@ footer a:hover {
 	height:150px;}
 
 #contact .container form .submit {
-	width:100%;
+	width:200px;
+  margin-left: 330px;
 	padding:5px 10px;
 	font-size: 12px;
 	letter-spacing:1px;
@@ -474,11 +455,13 @@ footer a:hover {
 	letter-spacing:1px;
 	color:#FFF;
 	border:2px solid #dd4545;
+
   -webkit-transition:all .1s ease-in-out;
 	-moz-transition:all .1s ease-in-out;
 	-ms-transition:all .1s ease-in-out;
 	-o-transition:all .1s ease-in-out;
-	transition:all .1s ease-in-out;}
+	transition:all .1s ease-in-out;
+}
 
 #contact .container form .submit:hover {
 	color:#FFF;
@@ -488,3 +471,28 @@ footer a:hover {
 
 #contact .container form .required {
 	color:#b43838;}
+
+
+.success {
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #468847;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+  }
+
+.error {
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    color: #b94a48;
+    background-color: #f2dede;
+    border: 1px solid rgba(185, 74, 72, 0.3);
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+  }
