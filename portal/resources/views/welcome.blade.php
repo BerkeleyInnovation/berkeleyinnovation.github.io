@@ -19,11 +19,12 @@
     <section class="content">
         <div class="text_box">
             <img id="bi_logo" src="../../../media/logo_white.png">
-            <form name="htmlform" method="post" action="#">
+            <form name="htmlform" method="post" action="{{ route('signup') }}">
                 <input type="text" id="name" name="name" placeholder="Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'" required>
                 <input type="email" id="email" name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" required>
                 <input type="password" id="password" name="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required>
                 <button type="submit" name="send" class="submit">Sign Up</button>
+                <input type="hidden" name="_token" value="{{ Session::token() }}">
             </form>
             <form name="htmlform" method="post" action="#">
                 <input type="email" id="email" name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" required>
