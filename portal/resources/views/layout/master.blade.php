@@ -19,16 +19,10 @@
     <section class="content">
         <div class="text_box">
             <img id="bi_logo" src="../../../media/logo_white.png">
-            <form name="htmlform" method="post" action="#">
-                <input type="text" id="name" name="name" placeholder="Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'" required>
+            <form id="ajax-contact" name="htmlform" method="post" action="">
                 <input type="email" id="email" name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" required>
-                <input type="password" id="password" name="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required>
-                <button type="submit" name="send" class="submit">Sign Up</button>
-            </form>
-            <form name="htmlform" method="post" action="#">
-                <input type="email" id="email" name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" required>
-                <input type="password" id="password" name="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required>
-                <button type="submit" name="send" class="submit">Sign In</button>
+                <input type="password" id="pw" name="pw" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" required>
+                <!-- <button name="send" type="submit" class="submit">SEND</button> -->
             </form>
         </div>
     </section>
