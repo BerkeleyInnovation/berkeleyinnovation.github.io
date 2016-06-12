@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>BI Portal</title>
+    <link rel="icon" type="image/png" href="../../assets/site_logo.png">
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
@@ -18,6 +19,13 @@
     <style>
         body {
             font-family: 'Lato';
+            height: 1500px;
+
+            background: #ff6600; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(left top, #ff4400, #FFA100); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(bottom right, #ff4400, #FFA100); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(bottom right, #ff4400, #FFA100); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to bottom right, #ff4400, #FFA100); /* Standard syntax */
         }
 
         .fa-btn {
@@ -40,7 +48,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Laravel
+                    BI Portal
                 </a>
             </div>
 
