@@ -19,17 +19,27 @@
     <style>
         body {
             font-family: 'Lato';
-            height: 1500px;
+        }
 
+        .fa-btn {
+            margin-right: 6px;
+        }
+
+        .navbar {
             background: #ff6600; /* For browsers that do not support gradients */
             background: -webkit-linear-gradient(left top, #ff4400, #FFA100); /* For Safari 5.1 to 6.0 */
             background: -o-linear-gradient(bottom right, #ff4400, #FFA100); /* For Opera 11.1 to 12.0 */
             background: -moz-linear-gradient(bottom right, #ff4400, #FFA100); /* For Firefox 3.6 to 15 */
             background: linear-gradient(to bottom right, #ff4400, #FFA100); /* Standard syntax */
         }
-
-        .fa-btn {
-            margin-right: 6px;
+        #navtext {
+            color: #ffffff;
+        }
+        #navtext:hover {
+            color: #ffd1b3;
+        }
+        .open {
+            background-color: black;
         }
     </style>
 </head>
@@ -47,7 +57,7 @@
                 </button>
 
                 <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a id="navtext" class="navbar-brand" href="{{ url('/') }}">
                     BI Portal
                 </a>
             </div>
@@ -55,18 +65,18 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/home') }}">Home</a></li>
+                    <li><a id="navtext" href="{{ url('/home') }}">Home</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
                     @if (Auth::guest())
-                        <li><a href="{{ url('/login') }}">Login</a></li>
-                        <li><a href="{{ url('/register') }}">Register</a></li>
+                        <li><a id="navtext" href="{{ url('/login') }}">Login</a></li>
+                        <li><a id="navtext" href="{{ url('/register') }}">Register</a></li>
                     @else
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <a id="navtext" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                 {{ Auth::user()->name }} <span class="caret"></span>
                             </a>
 
