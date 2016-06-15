@@ -1,99 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7096eee4-61f4-4473-9cd4-e67d12f8e1eb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/.env.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Console/Commands/Inspire.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Console/Kernel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Events/Event.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Exceptions/Handler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Http/Controllers/Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Http/Controllers/HomeController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Http/Controllers/UserController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Http/Kernel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Http/Middleware/Authenticate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Http/Middleware/EncryptCookies.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Http/Requests/Request.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Http/routes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Jobs/Job.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Listeners/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Policies/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Providers/AppServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Providers/AuthServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Providers/EventServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/Providers/RouteServiceProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/app/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/artisan" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/bootstrap/app.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/bootstrap/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/bootstrap/cache/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/app.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/auth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/broadcasting.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/compile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/database.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/filesystems.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/mail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/queue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/services.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/session.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/config/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/database/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/database/factories/ModelFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/database/migrations/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/database/migrations/2016_06_10_060147_create_password_resets_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/database/migrations/2016_06_10_060147_create_users_table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/database/seeds/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/database/seeds/DatabaseSeeder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/public/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/public/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/public/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/public/web.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/lang/en/auth.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/lang/en/pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/lang/en/passwords.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/lang/en/validation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/auth/emails/password.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/auth/login.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/auth/passwords/email.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/auth/passwords/reset.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/auth/register.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/errors/503.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/home.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/layout/master.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/layouts/app.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/vendor/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/resources/views/welcome.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/server.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/storage/app/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/storage/app/public/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/storage/framework/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/storage/framework/cache/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/storage/framework/sessions/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/storage/framework/views/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/storage/logs/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/tests/ExampleTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portal copy/tests/TestCase.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/berkeleyinnovation.github.io.iml" afterPath="$PROJECT_DIR$/berkeleyinnovation.github.io.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/app/Http/routes.php" afterPath="$PROJECT_DIR$/portal/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/config/database.php" afterPath="$PROJECT_DIR$/portal/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/portal/resources/views/auth/register.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portal/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/portal/resources/views/layouts/app.blade.php" />
-    </list>
+    <list default="true" id="7096eee4-61f4-4473-9cd4-e67d12f8e1eb" name="Default" comment="" />
     <ignored path="berkeleyinnovation.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1350,12 +1258,12 @@
       <workItem from="1465512194282" duration="55000" />
       <workItem from="1465512251643" duration="25774000" />
       <workItem from="1465921980576" duration="7167000" />
-      <workItem from="1465932071760" duration="2745000" />
+      <workItem from="1465932071760" duration="2787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35741000" />
+    <option name="totallyTimeSpent" value="35783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1915" height="1177" extended-state="0" />
