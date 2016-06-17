@@ -65,4 +65,9 @@ $(document).ready(function(){
       $("#subheader_partner").fadeOut(0);
     });
 
+
+    cheet('p o r t a l', function () {
+      alert('Voilà!');
+    });
+
 });
