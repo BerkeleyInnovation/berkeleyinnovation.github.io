@@ -18,7 +18,9 @@ $(document).ready(function(){
   $("#subheader_partner").fadeOut(0);
   // var topHovered = false;
   // var subHovered = false;
-
+  cheet('p o r t a l', function () {
+    window.location.href = "http://berkeleyinnovation-portal.herokuapp.com/"
+  });
   // Hovering makes subheader appear
   $("#about").hover(function(){         // ABOUT
     $("#subheader_about").fadeIn(300);
@@ -63,12 +65,6 @@ $(document).ready(function(){
       });
     }, function() {
       $("#subheader_partner").fadeOut(0);
-    });
-
-
-    cheet('p o r t a l', function () {
-      // alert('Voilà!');
-      window.location.href = "http://berkeleyinnovation-portal.herokuapp.com/"
     });
 
 });
