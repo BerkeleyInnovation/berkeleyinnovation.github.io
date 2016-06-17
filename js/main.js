@@ -67,7 +67,8 @@ $(document).ready(function(){
 
 
     cheet('p o r t a l', function () {
-      alert('Voilà!');
+      // alert('Voilà!');
+      window.location.href = "http://berkeleyinnovation-portal.herokuapp.com/"
     });
 
 });
