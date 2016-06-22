@@ -12,6 +12,7 @@ body {
   position: absolute;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 
   background: #ff6600; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(left top, #ff4400, #FFA100); /* For Safari 5.1 to 6.0 */
@@ -211,15 +212,15 @@ h1 {
 
 
 footer {
-  height: 100px;
-  /*background-color: #333333;*/
+  height: 70px;
+  /* background-color: #333333; */
   right: 0;
   left: 0;
-  bottom: -210px;
+  bottom: -130px;
   position: absolute;
   background-color: #ffffff;
   padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 
 }
 
