@@ -209,8 +209,6 @@ h1 {
 
 
 
-
-
 footer {
   height: 70px;
   /* background-color: #333333; */
@@ -260,8 +258,8 @@ footer a:hover {
 }
 .footer_icons a {
   text-align: center;
-  padding-right: 30px;
-  padding-bottom: 30px;
+  padding-right: 0px;
+  padding-bottom: 1px;
   margin-left: 0px;
   text-decoration: none;
   font-size: 1em;
@@ -269,7 +267,8 @@ footer a:hover {
   color: gray;
 }
 
-.fb_icon {
+
+/*.fb_icon {
   background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/facebook28.png") center top no-repeat;
 }
 .fb_icon:hover {
@@ -295,4 +294,4 @@ footer a:hover {
 }
 .yt_icon:hover {
   background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/youtube28_ro.png") center top no-repeat;
-}
+}*/

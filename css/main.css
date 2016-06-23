@@ -105,8 +105,7 @@ header a:hover {
   font-style: italic;
   z-index: 100;
   background-color: white;
-  /*border: 1px solid #ff6600;*/
-
+  border: 0.5px solid #ffc299;
 }
 #subheader_process {
   float: right;
@@ -340,13 +339,16 @@ h7 {
 
 
 footer {
-  height: 120px;
-  /*background-color: #333333;*/
-  bottom: 0%;
+  height: 70px;
+  /* background-color: #333333; */
   right: 0;
   left: 0;
-  position: relative;
-  margin-top: 100px;
+  bottom: -130px;
+  position: absolute;
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 50px;
+
 }
 
 .footer_content {
@@ -355,7 +357,6 @@ footer {
   text-align: left;
   font-size: 0.7em;
   font-weight: 300;
-  border-top: 1px solid #ff6600;
 }
 
 footer a {
@@ -386,8 +387,8 @@ footer a:hover {
 }
 .footer_icons a {
   text-align: center;
-  padding-right: 30px;
-  padding-bottom: 30px;
+  padding-right: 0px;
+  padding-bottom: 1px;
   margin-left: 0px;
   text-decoration: none;
   font-size: 1em;
@@ -395,7 +396,7 @@ footer a:hover {
   color: gray;
 }
 
-.fb_icon {
+/*.fb_icon {
   background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/facebook28.png") center top no-repeat;
 }
 .fb_icon:hover {
@@ -421,7 +422,7 @@ footer a:hover {
 }
 .yt_icon:hover {
   background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/youtube28_ro.png") center top no-repeat;
-}
+}*/
 
 
 /*#contact {height:100%; margin: 10px 20px; background: #DDD;background-color: #ffffff; margin-bottom: 100px;}
