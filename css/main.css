@@ -339,16 +339,13 @@ h7 {
 
 
 footer {
-  height: 70px;
-  /* background-color: #333333; */
+  height: 120px;
+  /*background-color: #333333;*/
+  bottom: 0%;
   right: 0;
   left: 0;
-  bottom: -130px;
-  position: absolute;
-  background-color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 50px;
-
+  position: relative;
+  margin-top: 100px;
 }
 
 .footer_content {
@@ -357,6 +354,7 @@ footer {
   text-align: left;
   font-size: 0.7em;
   font-weight: 300;
+  border-top: 1px solid #ff6600;
 }
 
 footer a {
