@@ -86,15 +86,6 @@ header a:hover {
   margin-right: 7px;
 }
 
-#portal_button {
-  width: 100px;
-  position: absolute;
-  top: 0px;
-  right: 300px;
-  background-color: #ff6600;
-  color: #ffffff;
-}
-
 
 .subheader {
   float: right;

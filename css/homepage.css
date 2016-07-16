@@ -14,11 +14,11 @@ body {
   padding: 0;
   overflow: hidden;
 
-  background: #ff6600; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #ff4400, #FFA100); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #ff4400, #FFA100); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #ff4400, #FFA100); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #ff4400, #FFA100); /* Standard syntax */
+  /*background: #ffd1b3;
+  background: -webkit-linear-gradient(left top, #ff4400, #ffd1b3);
+  background: -o-linear-gradient(bottom right, #ff4400, #ffd1b3);
+  background: -moz-linear-gradient(bottom right, #ff4400, #ffd1b3);
+  background: linear-gradient(to bottom right, #ff4400, #ffd1b3);*/
 }
 
 section a {
@@ -30,7 +30,7 @@ header a {
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
-  color: #ffffff;
+  color: #ff6600;
   transition: border 0.15s ease;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -89,7 +89,8 @@ header a:hover {
   float: right;
   right: 307px;
   bottom: 28px;
-  /*border: 1px solid black;*/
+  border: 0.5px solid #ffc299;
+  background-color: white;
   padding: 0;
   position: relative;
   font-style: italic;
@@ -120,12 +121,7 @@ header a:hover {
   text-align: left;
   height: 33px;
 }
-/*.subheader {
-  -webkit-user-select: all;
-  -moz-user-select: all;
-  -ms-user-select: element;
-  user-select: all;
-}*/
+
 
 .subheader a:hover {
   color: #ffc299;
@@ -144,6 +140,18 @@ header a:hover {
   margin-right: 240px;
 }
 
+.stripe {
+  background-color: #004250;
+  opacity: 0.5;
+  display: none;
+  width: 450px;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  bottom: 100px;
+  /*transform: translate(-50%, -50%);*/
+}
+
 .content {
   top: 120px;
   right: 0;
@@ -152,6 +160,11 @@ header a:hover {
   display: block;
   height: 100%;
   min-width: 1000px;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .content_body {
@@ -163,6 +176,7 @@ header a:hover {
   font-size: 14px;
   font-weight: 400;
   color: #ffffff;
+  display: none;
 }
 
 .officer_grid {
@@ -181,7 +195,6 @@ header a:hover {
   font-weight: 300;
   color: white;
 
-  text-align: center;
 
   position: relative;
   margin: 0 auto;
@@ -195,16 +208,24 @@ header a:hover {
   margin-top: 50px;
 }
 
-h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 2.8em;
-  padding-left: 17px;
-  margin: 10px auto;
-  color: #ffffff;
-
+.hero_pic {
+  position: absolute;
+  width: 600px;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+  display: none;
 }
 
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 3.3em;
+  line-height: 0.7em;
+  padding-left: 10px;
+  margin: 10px auto;
+  color: #ff6600;
+}
 
 
 
@@ -216,10 +237,10 @@ footer {
   left: 0;
   bottom: -130px;
   position: absolute;
-  background-color: #ffffff;
+  background-color: #e6e6e6;
   padding-top: 10px;
   padding-bottom: 50px;
-  border-top: 1px solid #ff6600;
+  border-top: 10px solid #ff6600;
 }
 
 .footer_content {
