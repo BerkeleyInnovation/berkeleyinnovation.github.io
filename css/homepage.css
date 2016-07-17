@@ -211,7 +211,7 @@ header a:hover {
 
 .hero_pic {
   position: absolute;
-  width: 650px;
+  width: 600px;
   bottom: 0px;
   right: 0px;
   z-index: -1;
