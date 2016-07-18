@@ -161,6 +161,11 @@ header a:hover {
   min-width: 1000px;
 }
 
+.content ul li {
+  list-style: circle;
+  padding: 5px;
+}
+
 .content_body {
   margin: 0 auto;
   max-width: 980px;
