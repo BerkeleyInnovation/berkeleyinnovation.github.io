@@ -161,7 +161,7 @@ header a:hover {
   min-width: 1000px;
 }
 
-.content ul li {
+.text_box  ul li {
   list-style: circle;
   padding: 5px;
 }
