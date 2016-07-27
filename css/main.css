@@ -96,7 +96,7 @@ header a:hover {
   font-style: italic;
   z-index: 100;
   background-color: white;
-  border: 0.5px solid #ffc299;
+  border: 1px solid #ffc299;
 }
 #subheader_process {
   float: right;
