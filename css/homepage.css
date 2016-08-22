@@ -190,13 +190,14 @@ header a:hover {
 
 .text_box {
   /*border: 1px dashed #ffffff;*/
-  height: 100%;
+  height: 300px;
+  width: 450px;
   margin-top: 50px;
   margin-bottom: 10px;
   padding: 5px 8px;
   font-size: 0.73em;
   font-weight: 300;
-  color: white;
+  background-color: white;
 
 
   position: relative;
@@ -220,6 +221,14 @@ header a:hover {
   padding-top: 150px;
 }
 
+.hero_quote {
+  padding-bottom: 40px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  width: 45%;
+  z-index: -10;
+
+}
 
 #join_us {
   background-color: #ff6600;
@@ -291,6 +300,12 @@ h1 {
   color: #ff6600;
 }
 
+h7 {
+  display: inline;
+  color: #ff6600;
+  font-weight: 300;
+}
+
 p {
   /*border: 1px solid black;*/
   font-family: "Open Sans", serif;
@@ -301,7 +316,7 @@ p {
   padding-left: 15px;
   margin-bottom: 150px;
   color: #666666;
-  bottom: 100px;
+  bottom: 120px;
   position: absolute;
 }
 
