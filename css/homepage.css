@@ -290,6 +290,16 @@ header a:hover {
   color: white;
 }
 
+
+.shown {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
@@ -410,3 +420,35 @@ footer a:hover {
 .yt_icon:hover {
   background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/youtube28_ro.png") center top no-repeat;
 }*/
+
+
+
+@media (max-width: 999px) {
+  .content {
+    top: 120px;
+    right: 0;
+    left: 0;
+    position: absolute;
+    display: block;
+    height: 100%;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .content_body {
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 5px;
+    position: relative;
+    /*border: 1px solid #cccccc;*/
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    display: none;
+    height: 100%;
+  }
+
+}
