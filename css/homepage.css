@@ -13,6 +13,8 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  /*border-top: 8px solid #ff6600;*/
+
 
   /*background: #ffd1b3;
   background: -webkit-linear-gradient(left top, #ff4400, #ffd1b3);
@@ -197,7 +199,6 @@ header a:hover {
   padding: 5px 8px;
   font-size: 0.73em;
   font-weight: 300;
-  background-color: white;
 
 
   position: relative;
@@ -228,6 +229,15 @@ header a:hover {
   width: 45%;
   z-index: -10;
 
+}
+
+.julian_quote {
+  width: 37%;
+}
+.julian_space {
+  max-height: 750px;
+  right: -150px;
+  bottom: 80px;
 }
 
 #join_us {

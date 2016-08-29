@@ -2,6 +2,14 @@ $(document).ready(function(){
   // Fade homepage content in
   $(".index_content").fadeIn(1500);
 
+  var i;
+  for (i = 0; i < 100; i++) {
+    $("#sonali").delay(5000).fadeOut(1500);
+    $("#julian").delay(5000).fadeIn(1500);
+    $("#julian").delay(5000).fadeOut(1500);
+    $("#sonali").delay(5000).fadeIn(1500);
+  }
+
   // Start with no visible subheade
   $("#subheader_about").fadeOut(0);
   $("#subheader_process").fadeOut(0);
