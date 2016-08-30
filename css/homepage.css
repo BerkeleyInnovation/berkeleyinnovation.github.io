@@ -47,17 +47,14 @@ header a:hover {
 }
 
 .top_header {
-  top: 20px;
+  top: 18px;
   right: 0;
   left: 0;
   position: absolute;
   display: block;
   height: 100px;
   min-width: 1000px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+
 }
 
 .top_header_content {
@@ -93,7 +90,7 @@ header a:hover {
   right: 307px;
   bottom: 28px;
   border: 1px solid #ffc299;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 0;
   position: relative;
   font-style: italic;
@@ -133,14 +130,14 @@ header a:hover {
 
 
 #bi_logo {
-  height: 40px;
+  height: 43px;
   margin-bottom: -10px;
   pointer-events: none;
 }
 
 #list_space {
   margin-left: 240px;
-  margin-right: 240px;
+  margin-right: 130px;
 }
 
 .stripe {
@@ -162,7 +159,6 @@ header a:hover {
   position: absolute;
   display: block;
   height: 100%;
-  min-width: 1000px;
 
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -181,6 +177,9 @@ header a:hover {
   color: #ffffff;
   display: none;
   height: 100%;
+  z-index: -1;
+
+  bottom: 200px;
 }
 
 .officer_grid {
@@ -192,16 +191,21 @@ header a:hover {
 
 .text_box {
   /*border: 1px dashed #ffffff;*/
-  height: 300px;
-  width: 450px;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  padding: 5px 8px;
+  height: 230px;
+  width: 400px;
+  padding-right: 30px;
+  padding-top: 20px;
+
   font-size: 0.73em;
   font-weight: 300;
+  bottom: 0px;
+  right: 50px;
+  position: absolute;
+  text-align: right;
+  background-color: rgba(51, 51, 51, 0.4);
+  border-radius: 3px;
 
 
-  position: relative;
 }
 
 .icon {
@@ -271,7 +275,7 @@ header a:hover {
 }
 
 #how_we_think {
-  background-color: white;
+  /*background-color: white;*/
   color: #ff6600;
 
   width: 180px;
@@ -309,6 +313,19 @@ header a:hover {
   display: none;
 }
 
+#vid {
+  z-index: -100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
 
 h1 {
   font-family: "Playfair Display", serif;
@@ -317,7 +334,7 @@ h1 {
   line-height: 0.7em;
   padding-left: 10px;
   margin: 10px auto;
-  color: #ff6600;
+  color: white;
 }
 
 h7 {
@@ -354,7 +371,7 @@ footer {
 
   padding-top: 0px;
   padding-bottom: 70px;
-  border-top: 10px solid #ff6600;
+  border-top: 15px solid #ff6600;
 }
 
 .footer_content {
