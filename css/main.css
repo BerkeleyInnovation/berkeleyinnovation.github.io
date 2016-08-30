@@ -262,18 +262,20 @@ header a:hover {
 }
 
 
-table {
+table{
   width: 100%;
   height: 130px;
 }
 
-td {
-  /*border: 1px solid black;*/
-}
 .table_logo {
   height: 75px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
+td{
+    min-width:100px;
+}
 
 #about_cover {
   float: right;
