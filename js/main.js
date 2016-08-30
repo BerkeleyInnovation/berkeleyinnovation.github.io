@@ -2,13 +2,26 @@ $(document).ready(function(){
   // Fade homepage content in
   $(".index_content").fadeIn(1500);
 
-  var i;
-  for (i = 0; i < 100; i++) {
-    $("#sonali").delay(5000).fadeOut(1500);
-    $("#julian").delay(5000).fadeIn(1500);
-    $("#julian").delay(5000).fadeOut(1500);
-    $("#sonali").delay(5000).fadeIn(1500);
-  }
+  //
+  // $("#adam").delay(6600).fadeIn(0);
+  //
+  // $("#karen").delay(6500).fadeOut(0);
+  // $("#karen").delay(5500).fadeIn(0);
+
+  // $("#adam").delay(6000).addClass("shown");
+
+  // var i;
+  // for (i = 1; i <= 2; i++) {
+
+    // $("#karen").delay(0).fadeIn(0);
+    // $("#karen").delay(6000).fadeOut(0);
+    // $("#adam").delay(0).fadeIn(0);
+    // $("#adam").delay(6000).fadeOut(0);
+    // $("#adam").delay(0).addClass("hidden");
+    // $("#adam").delay(6000).addClass("hidden");
+    // $("#karen").delay(0).addClass("shown");
+    // $("#karen").delay(6000).addClass("hidden");
+  // }
 
   // Start with no visible subheade
   $("#subheader_about").fadeOut(0);

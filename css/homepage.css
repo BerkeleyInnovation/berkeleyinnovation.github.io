@@ -314,7 +314,7 @@ header a:hover {
   display: none;
 }
 
-#vid {
+.vid {
   z-index: -100;
   position: absolute;
   top: 50%;
