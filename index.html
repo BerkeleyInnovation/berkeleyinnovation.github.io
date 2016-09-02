@@ -25,6 +25,7 @@
 
  ga('create', 'UA-83384107-1', 'auto');
  ga('send', 'pageview');
+ ga('set', 'page', '/index')
 
  </script>
       <!-- End Google Analytics -->
@@ -37,56 +38,56 @@
       <div class="top_header_content">
         <ul class="top_header_content_list">
           <li class="top_header_content_list_item">
-            <a href="http://berkeleyinnovation.org/"><img id="bi_logo" src="media/full_logo.png"></a>
+            <a href="http://berkeleyinnovation.org/" onclick="ga('send', 'event','header_logo', 'click')"><img id="bi_logo" src="media/full_logo.png"></a>
           </li>
           <li class="top_header_content_list_item" id="list_space">
             <a></a>
           </li>
           <li class="top_header_content_list_item">
-            <a href="/about" id="about">ABOUT</a>
+            <a href="/about" id="about" onclick="ga('send', 'event','header_about_link', 'click')">ABOUT</a>
           </li>
           <li class="top_header_content_list_item">
-            <a href="/process" id="process">PROCESS</a>
+            <a href="/process" id="process" onclick="ga('send', 'event','header_process_link', 'click')">PROCESS</a>
           </li>
           <li class="top_header_content_list_item">
-            <a href="/portfolio">PORTFOLIO</a>
+            <a href="/portfolio" onclick="ga('send', 'event','header_portfolio_link', 'click')">PORTFOLIO</a>
           </li>
           <li class="top_header_content_list_item">
-            <a href="/partner" id="partner">PARTNER</a>
+            <a href="/partner" id="partner" onclick="ga('send', 'event','header_partner_link', 'click')">PARTNER</a>
           </li>
         </ul>
 
         <!--Subheaders start-->
         <ul class="subheader" id="subheader_about">
           <li class="subheader_content_list_item">
-            <a href="/about#join_us">Join Us</a>
+            <a href="/about#join_us" onclick="ga('send', 'event','header_join_link', 'click')">Join Us</a>
           </li>
           <li class="subheader_content_list_item">
-            <a href="/about#leadership">Leadership</a>
+            <a href="/about#leadership" onclick="ga('send', 'event','header_leadership_link', 'click')">Leadership</a>
           </li>
           <li class="subheader_content_list_item">
-            <a href="/about#life_after_bi">Life after BI</a>
+            <a href="/about#life_after_bi" onclick="ga('send', 'event','header_alumni_link', 'click')">Life after BI</a>
           </li>
         </ul>
 
         <ul class="subheader" id="subheader_process">
           <li class="subheader_content_list_item">
-            <a href="/process">Innovation</a>
+            <a href="/process" onclick="ga('send', 'event','header_process_link', 'click')">Innovation</a>
           </li>
           <li class="subheader_content_list_item">
-            <a href="/decal">DeCal</a>
+            <a href="/decal" onclick="ga('send', 'event','header_decal_link', 'click')">DeCal</a>
           </li>
         </ul>
 
         <ul class="subheader" id="subheader_partner">
           <li class="subheader_content_list_item">
-            <a href="/partner#partner_with_us">Partner with Us</a>
+            <a href="/partner#partner_with_us" onclick="ga('send', 'event','header_partner_link', 'click')">Partner with Us</a>
           </li>
           <li class="subheader_content_list_item">
-            <a href="/partner#past_sponsors">Past Sponsors</a>
+            <a href="/partner#past_sponsors" onclick="ga('send', 'event','header_sponsors_link', 'click')">Past Sponsors</a>
           </li>
           <li class="subheader_content_list_item">
-            <a href="/partner#contact_us">Contact Us</a>
+            <a href="/partner#contact_us" onclick="ga('send', 'event','contact', 'click')">Contact Us</a>
           </li>
         </ul>
         <!--Subheaders end-->
@@ -108,8 +109,8 @@
           <h1>UC Berkeley's</h1>
           <h1>Human-Centered</h1>
           <h1>Design Consultancy</h1>
-          <a href="/process"><div id="how_we_think">HOW WE THINK</div></a>
-          <a href="/about#join_us"><div id="join_us">JOIN US</div></a>
+          <a href="/process" onclick="ga('send', 'event','index_process_button', 'click')"><div id="how_we_think">HOW WE THINK</div></a>
+          <a href="/about#join_us" onclick="ga('send', 'event','index_join_button', 'click')"><div id="join_us">JOIN US</div></a>
         </div>
 
         <!-- <div id="sonali" class="shown">
