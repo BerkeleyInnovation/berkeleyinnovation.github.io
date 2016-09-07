@@ -30,7 +30,7 @@ header a {
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
-  color: #ff6600;
+  color: white;
   transition: border 0.2s ease;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -95,7 +95,7 @@ header a:hover {
   position: relative;
   font-style: italic;
   z-index: 100;
-  background-color: white;
+  background-color: #ff6600;
   border: 1px solid #ffc299;
 }
 #subheader_process {
@@ -136,7 +136,7 @@ header a:hover {
 
 .active_page {
   font-weight: 600;
-  border-bottom: 8px solid #ff6600
+  border-bottom: 8px solid white;
 }
 
 
@@ -291,26 +291,61 @@ td {
   user-select: none;
 }
 
+#decal_hero {
+  position: absolute;
+  max-width: 97%;
+  width: auto;
+  height: auto;
+  transition: 1s opacity;
+  margin-left: -8px;
 
+}
+
+.decal_box {
+  /*border: 1px dashed #ffffff;*/
+  height: 100%;
+  margin: -10px 10px;
+  margin-bottom: 35px;
+  padding: 5px 8px;
+  font-size: 1.2em;
+  font-weight: 300;
+  border: 13px white solid
+}
+
+
+#syllabus {
+  border: 5px solid white;
+  width: 85px;
+  height: 20px;
+  padding: 9px;
+  padding-left: 15px;
+  border-radius: 5px;
+  left: 55px;
+  top: 570px;
+  position: absolute;
+  background-color: #eee;
+  color: #666;
+  font-size: 1em;
+}
 
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
-  font-size: 2.8em;
+  font-size: 2.5em;
   padding-left: 17px;
   margin-top: 20px;
   margin-bottom: 0px;
-  color: #666666;
+  color: white;
 }
 
 h2 {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  font-size: 2.2em;
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-size: 1.3em;
   padding-left: 17px;
   margin: 10px auto;
-  color: #666666;
+  color: white;
 }
 
 h5 {
@@ -356,7 +391,7 @@ footer {
   text-align: left;
   font-size: 0.7em;
   font-weight: 300;
-  border-top: 1px solid #ff6600;
+  border-top: 1px solid white;
 }
 
 footer a {
@@ -365,14 +400,14 @@ footer a {
   text-decoration: none;
   font-size: 1em;
   font-weight: normal;
-  color: gray;
+  color: white;
 }
 footer a:hover {
   color: #b3b3b3;
 }
 
 .footer_text {
-  color: gray;
+  color: white;
   font-weight: normal;
   margin-top: 10px;
   padding-left: 8px;
