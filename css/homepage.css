@@ -3,7 +3,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-#donate {
+/*#donate {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -14,10 +14,10 @@ body {
   color: white;
   padding: 15px;
   text-align: center;
-}
+}*/
 
 .background_orange {
-  top: 55px;
+  top: 0;
   right: 0;
   left: 0;
   height: 100%;
