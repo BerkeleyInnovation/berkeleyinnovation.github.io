@@ -25,8 +25,6 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /*border-top: 8px solid #ff6600;*/
-
 
   /*background: #ffd1b3;
   background: -webkit-linear-gradient(left top, #ff4400, #ffd1b3);
@@ -226,36 +224,6 @@ header a:hover {
   margin-top: 50px;
 }
 
-.hero_pic {
-  position: absolute;
-  height: 100%;
-  max-height: 800px;
-  bottom: 0px;
-  right: -70px;
-  z-index: -1;
-  display: none;
-
-  padding-top: 150px;
-}
-
-.hero_quote {
-  padding-bottom: 40px;
-  font-size: 1.5em;
-  line-height: 1.5em;
-  width: 45%;
-  z-index: -10;
-
-}
-
-.julian_quote {
-  width: 37%;
-}
-.julian_space {
-  max-height: 750px;
-  right: -150px;
-  bottom: 80px;
-}
-
 #join_us {
   background-color: #ff6600;
   color: white;
@@ -430,35 +398,6 @@ footer a:hover {
   font-weight: normal;
   color: gray;
 }
-
-
-/*.fb_icon {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/facebook28.png") center top no-repeat;
-}
-.fb_icon:hover {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/facebook28_ro.png") center top no-repeat;
-}
-
-.tw_icon {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/twitter2828.png") center top no-repeat;
-}
-.tw_icon:hover {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/twitter28_ro.png") center top no-repeat;
-}
-
-.li_icon {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/linkedin28.png") center top no-repeat;
-}
-.li_icon:hover {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/linkedin28_ro.png") center top no-repeat;
-}
-
-.yt_icon {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/youtube28.png") center top no-repeat;
-}
-.yt_icon:hover {
-  background:transparent url("https://berkeleyinnovation.org/media/socialmedia_pngs/youtube28_ro.png") center top no-repeat;
-}*/
 
 
 
