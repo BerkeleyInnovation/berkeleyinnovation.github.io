@@ -24,10 +24,16 @@ body, html {
   min-height: 100%;
 }
 
-@media only screen and (max-device-width: 900px) {
+@media screen and (max-width: 900px) {
+  .bgimg-1 {
+    background-size: contain;
+  }
+
   .bgimg-2 {
     background-image: url("../media/Sp17_back_mobile.png");
-    min-height: 100%;
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
   }
 }
 
