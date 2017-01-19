@@ -7,7 +7,6 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  /*opacity: 0.65;*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,26 +19,39 @@ body, html {
 }
 
 .bgimg-2 {
-  background-image: url("../media/Sp17_back.png");
+  background-image: url("../media/Sp17Recruit_back.png");
   min-height: 100%;
-}
-
-@media screen and (max-width: 900px) {
-  .bgimg-1 {
-    background-size: contain;
-  }
-
-  .bgimg-2 {
-    background-image: url("../media/Sp17_back_mobile.png");
-    max-width: 100%;
-    height: auto;
-    background-size: contain;
-  }
 }
 
 .bgimg-3 {
   background-image: url("../media/BI_clubphoto.jpg");
   min-height: 100%;
+}
+
+@media screen and (max-width: 820px) {
+  .bgimg-1 {
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
+  }
+
+  .bgimg-2 {
+    background-image: url("../media/Sp17Recruit_back_mobile.png");
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
+  }
+
+  .bgimg-1 .caption span.border {
+    color: black;
+    font-size: 22px;
+  }
+
+  .bgimg-3 {
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
+  }
 }
 
 .caption {
@@ -48,15 +60,14 @@ body, html {
   top: 8%;
   width: 100%;
   text-align: center;
-  color: #000;
 }
 
 .caption span.border {
-  background-color: #111;
+  background-color: transparent;
   color: #fff;
   padding: 18px;
-  font-size: 25px;
   letter-spacing: 10px;
+  font-size: 30px;
 }
 
 h3 {
