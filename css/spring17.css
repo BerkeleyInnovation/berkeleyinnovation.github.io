@@ -68,6 +68,7 @@ body, html {
   padding: 18px;
   letter-spacing: 10px;
   font-size: 30px;
+  display: block;
 }
 
 h3 {
