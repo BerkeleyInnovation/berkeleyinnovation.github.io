@@ -47,9 +47,9 @@ header a:hover {
 }
 
 .top_header {
-  top: 50px;
+  top: 18px;
   right: 18px;
-  left: 80px;
+  left: 18px;
   position: absolute;
   display: block;
 /*  height: 100px;*/
@@ -89,7 +89,6 @@ ul.top_header_content_list {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
   /*text-align: justify;
   display: inline-block;
   align-items: center;*/
@@ -169,13 +168,12 @@ ul.top_header_content_list li.hamburger {
     text-align: left;
     padding: 10px 10px;
   }
-
 }
 
 
 .subheader {
   float: right;
-  right: 81%;
+  right: 307px;
   bottom: 28px;
   border: 1px solid #ffc299;
   background-color: rgba(255, 255, 255, 0.9);
@@ -186,7 +184,7 @@ ul.top_header_content_list li.hamburger {
 }
 #subheader_process {
   float: right;
-  right: 76%;
+  right: 225px;
   bottom: 28px;
   padding: 0;
   position: relative;
@@ -195,7 +193,7 @@ ul.top_header_content_list li.hamburger {
 }
 #subheader_partner {
   float: right;
-  right: 58.5%;
+  right: -20px;
   bottom: 28px;
   padding: 0;
   position: relative;
@@ -290,12 +288,13 @@ ul.top_header_content_list li.hamburger {
 
   font-size: 0.73em;
   font-weight: 300;
+  bottom: 0px;
+  right: 50px;
   position: absolute;
   text-align: right;
   background-color: rgba(51, 51, 51, 0.4);
   border-radius: 3px;
-  bottom: 0px;
-  right: 50px;
+
 }
 
 .icon {
@@ -480,35 +479,10 @@ footer a:hover {
 }
 
 
-@media (max-width: 680px) {
-  .subheader {
-    display: none;
-  }
-
-  .subheader_content_list_item, .subheader li {
-    display: none;
-  }
-}
-
 
 @media (max-width: 999px) {
-
-  .text_box {
-    right: 0px;
-  }
-
-  .top_header {
-    top: 10px;
-    right: 10px;
-    left: 10px;
-  }
-
-  h1 {
-    font-size: 3.6em;
-  }
-
   .content {
-    top: 300px;
+    top: 220px;
     right: 0;
     left: 0;
     position: absolute;

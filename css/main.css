@@ -233,6 +233,11 @@ header a:hover {
   margin-left: 10px;
 }
 
+#spring_pic {
+  width: 50%;
+  height: auto;
+}
+
 .process_box {
   border: 5px solid #ffffff;
   font-size: 1.3em;
@@ -268,7 +273,7 @@ table{
 }
 
 .table_logo {
-  height: 75px;
+  max-height: 75px;
   margin-left: 1rem;
   margin-right: 1rem;
 }
