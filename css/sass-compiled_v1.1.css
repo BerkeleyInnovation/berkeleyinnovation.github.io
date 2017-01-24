@@ -8,9 +8,22 @@ blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 
 
+/* Stills for Mobile Site START */
+.pic .still-slime {
+  display: none;
+}
 
-/**{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}*/
+@media screen and (max-width: 740px){
+  video {
+    display: none;
+  }
 
+  .pic .still-slime {
+    display: block;
+  }
+}
+
+/* Stills for Mobile Site END */
 
 .pull-right{float:right}.pull-left{float:left}
 
