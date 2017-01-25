@@ -26,11 +26,6 @@ body {
   padding: 0;
   overflow: hidden;
 }
-/*
-section a {
-  color: #ffffff;
-  text-decoration: none;
-}*/
 
 header a {
   display: inline-block;
@@ -47,12 +42,12 @@ header a:hover {
 }
 
 .top_header {
-  top: 50px;
+  top: 30px;
   right: 18px;
   left: 80px;
   position: absolute;
   display: block;
-/*  height: 100px;*/
+  z-index: 1000;
 }
 
 /*
@@ -99,28 +94,11 @@ ul.top_header_content_list li {
   float: left;
   /*display: inline;*/
   text-align: center;
-  
- 
   height: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-/* commenting out since header takes care of topheader and subheader formatting */
-/*ul.top_header_content_list li a {
-  display: inline-block;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-  color: #ff6600;
-  transition: border 0.15s ease;
-}
-
-ul.top_header_content_list li a:hover {
-  color: #ffc299;
-  border-bottom: 8px solid #ffc299;
-}*/
 
 /* new code ends */
 
@@ -128,7 +106,7 @@ ul.top_header_content_list li.hamburger {
   display: none;
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:640px) {
   ul.top_header_content_list li:not(:first-child) {display: none;}
 
   ul.top_header_content_list li.hamburger {
@@ -143,7 +121,7 @@ ul.top_header_content_list li.hamburger {
   }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:640px) {
   ul.top_header_content_list.responsive {position: relative;}
 
   /* dont display the filler block */
@@ -175,7 +153,7 @@ ul.top_header_content_list li.hamburger {
 
 .subheader {
   float: right;
-  right: 81%;
+  right: 78.5%;
   bottom: 28px;
   border: 1px solid #ffc299;
   background-color: rgba(255, 255, 255, 0.9);
@@ -183,10 +161,13 @@ ul.top_header_content_list li.hamburger {
   position: relative;
   font-style: italic;
   z-index: 10;
+
+  /* temp for recruitment */
+  display: none;
 }
 #subheader_process {
   float: right;
-  right: 76%;
+  right: 72.65%;
   bottom: 28px;
   padding: 0;
   position: relative;
@@ -195,7 +176,7 @@ ul.top_header_content_list li.hamburger {
 }
 #subheader_partner {
   float: right;
-  right: 58.5%;
+  right: 53.2%;
   bottom: 28px;
   padding: 0;
   position: relative;
@@ -206,19 +187,15 @@ ul.top_header_content_list li.hamburger {
   display: block;
   text-align: left;
   height: 33px;
-}
 
+  /* temp for recruitment */
+  display: none;
+}
 
 .subheader a:hover {
   color: #ffc299;
   border-bottom: 0px solid #ffc299;
 }
-
-
-
-
-
-
 
 #bi_logo {
   height: 40px;
@@ -259,18 +236,17 @@ ul.top_header_content_list li.hamburger {
 }
 
 .content_body {
-    margin: 0 auto;
-    margin-top: 170px;
-    max-width: 980px;
-    padding: 0 5px;
-    position: relative;
-    /* border: 1px solid #cccccc; */
-    font-size: 14px;
-    font-weight: 400;
-    color: #ffffff;
-    display: none;
-    height: 60%;
-    bottom: 200px;
+  margin: 0 0;
+  margin-top: 170px;
+  max-width: 980px;
+  padding-top: 120px; /*based on header height*/
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  bottom: 200px;
 }
 
 .officer_grid {
@@ -295,7 +271,8 @@ ul.top_header_content_list li.hamburger {
   background-color: rgba(51, 51, 51, 0.4);
   border-radius: 3px;
   bottom: 0px;
-  right: 50px;
+  right: -15%;
+  top: 50%;
 }
 
 .icon {
@@ -479,8 +456,22 @@ footer a:hover {
   color: gray;
 }
 
+.bgimg-mobile {
+  background-image: url("../media/BI_retreat_pic.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  display: none;
+  z-index: -100;
+}
 
-@media (max-width: 680px) {
+.mobile-body-content {
+  display: none;
+}
+
+@media (max-width: 640px) {
   .subheader {
     display: none;
   }
@@ -488,11 +479,80 @@ footer a:hover {
   .subheader_content_list_item, .subheader li {
     display: none;
   }
+
+  .vid {
+    display: none;
+  }
+
+  .bgimg-mobile {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    z-index: -100;
+  }
+
+/*  .text_box {
+    z-index: -1;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    top: 0%;
+  }*/
+
+  .content_body {
+    display: none;
+  }
+
+  .text_box {
+    display: none;
+  }
+
+  .mobile-body-content {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 320px;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    width: 355px;
+    z-index: 1000;
+  }
+
+  .top_header {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  h1 {
+    font-size: 1.8em;
+    color: #ff6600;
+  }
+
+  #how_we_think {
+    font-size: 0.6em;
+    width: 100px;
+    height: 10px;
+    z-index: 1000;
+  }
+
+  #join_us {
+    font-size: 0.6em;
+    width: 100px;
+    height: 10px;
+    z-index: 1000;
+  }
+
+
+
 }
 
-
-@media (max-width: 999px) {
-
+@media (max-width: 1200px) {
   .text_box {
     right: 0px;
   }
@@ -502,40 +562,4 @@ footer a:hover {
     right: 10px;
     left: 10px;
   }
-
-  h1 {
-    font-size: 3.6em;
-  }
-
-  .content {
-    top: 300px;
-    right: 0;
-    left: 0;
-    position: absolute;
-    display: block;
-    height: 100%;
-    z-index: 100;
-
-/*
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;*/
-  }
-
-  .content_body {
-        margin: 0 auto;
-        margin-top: 170px;
-        max-width: 980px;
-        padding: 0 5px;
-        position: relative;
-        /* border: 1px solid #cccccc; */
-        font-size: 14px;
-        font-weight: 400;
-        color: #ffffff;
-        display: none;
-        height: 60%;
-        bottom: 200px;
-  }
-
 }

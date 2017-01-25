@@ -1,6 +1,6 @@
 $(document).ready(function(){
   // Fade homepage content in
-  $(".index_content").fadeIn(1500);
+  // $(".index_content").fadeIn(1500);
 
   // Start with no visible subheade
   $("#subheader_about").fadeOut(0);
