@@ -124,9 +124,6 @@ ul.top_header_content_list li.hamburger {
 @media screen and (max-width:640px) {
   ul.top_header_content_list.responsive {position: relative;}
 
-  /* dont display the filler block */
- /* ul.top_header_content_list.responsive li:nth-child(2) {display: none;} */
-
   ul.top_header_content_list.responsive li.hamburger {
     position: absolute;
     right: 0;
@@ -491,18 +488,6 @@ footer a:hover {
     background-size: cover;
     z-index: -100;
   }
-
-/*  .text_box {
-    z-index: -1;
-    position: absolute;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    top: 0%;
-  }*/
 
   .content_body {
     display: none;
