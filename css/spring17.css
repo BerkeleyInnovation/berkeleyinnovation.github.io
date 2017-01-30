@@ -19,7 +19,7 @@ body, html {
 }
 
 .bgimg-2 {
-  background-image: url("../media/Sp17Recruit_back.png");
+  background-image: url("../media/updatedFlyerBack-Jan29.png");
   min-height: 100%;
 }
 
@@ -36,7 +36,7 @@ body, html {
   }
 
   .bgimg-2 {
-    background-image: url("../media/Sp17Recruit_back_mobile.png");
+    background-image: url("../media/updatedFlyerBack-Jan29-mobile.png");
     max-width: 100%;
     height: auto;
     background-size: contain;
