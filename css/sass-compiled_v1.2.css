@@ -9,7 +9,7 @@ table{border-collapse:collapse;border-spacing:0}
 
 
 /* Stills for Mobile Site START */
-.pic .still-slime {
+/*.pic .still-slime {
   display: none;
 }
 
@@ -21,8 +21,7 @@ table{border-collapse:collapse;border-spacing:0}
   .pic .still-slime {
     display: block;
   }
-}
-
+}*/
 /* Stills for Mobile Site END */
 
 .pull-right{float:right}.pull-left{float:left}
@@ -62,8 +61,9 @@ table{border-collapse:collapse;border-spacing:0}
 .pic-image{-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
 .pic:hover .pic-image{-webkit-transform:scale(1);-moz-transform:scale(1);-o-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
 
-.pic-title{font-size:1.6em; font-weight: 500; color: #ffffff}
-.position{font-weight: 400; margin-top: -10px; color: #ffffff}
+/* DO NOT CHANGE margin-top, directly affects Leadership hovers */
+.pic-title{font-size:1.6em; font-weight: 500; color: #ffffff; margin-top: 0px}
+.position{font-weight: 400; margin-top: 0px; color: #ffffff}
 .pic .pic-image,.pic-caption,.pic:hover .pic-caption,.pic:hover img{
   -webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;
 }
