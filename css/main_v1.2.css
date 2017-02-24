@@ -194,6 +194,12 @@ header a:hover {
   font-weight: 300;
 }
 
+/* New commit 2/23/2017: updating partners page */
+.text_box table tr td {
+  text-align: -webkit-center;
+}
+/* End new commit */
+
 #quote_box {
   /*border: 1px dashed black;*/
   height: 100%;
