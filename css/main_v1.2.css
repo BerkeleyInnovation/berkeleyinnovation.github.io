@@ -4,6 +4,86 @@ body {
   color: #333333;
 }
 
+
+  @media (max-width: 1200px) {
+  .text_box {
+    right: 0px;
+  }
+
+  .mobile-body-content-text {
+    padding: 10px;
+}
+
+.text_list {
+  margin: 15px 0px 5px 0px;
+  padding: 0;
+    overflow: hidden;
+    display: flex;
+    list-style-type: none;
+}
+
+  .top_header {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+  }
+
+  .top_header {
+    top: 0px; 
+    right: 0px;
+    left: 0px;
+}
+
+.footer_text {
+    color: #f2f2f2;
+    font-weight: normal;
+    margin: 10px 0px 20px 0px;
+    /* padding-left: 8px; */
+    font-size: 8px;
+}
+
+#bi_logo {
+    height: 35px;
+    /* margin-bottom: 0px; */
+    pointer-events: none;
+    margin-left: 5px;
+}
+
+ #how_we_think {
+    font-size: 0.6em;
+    width: 110px;
+    height: 10px;
+    z-index: 1000;
+  }
+
+  #join_us {
+    font-size: 0.4em;
+    width: 110px;
+    height: 10px;
+    z-index: 1000;
+  }
+
+  .bottom_header_content_list {
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    list-style-type: none;
+}
+
+  .bottom_header_content_list_item {
+    float: left;
+    /* display: inline; */
+    text-align: center;
+    /* height: 65px; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 0px 0px;
+    font-size: 10px;
+  }
+}
+
 /*.background {
   top: 0;
   right: 0;
