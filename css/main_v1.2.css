@@ -83,12 +83,11 @@ header a:hover {
 }
 
 .top_header_content_list_item, .top_header_content_list li {
-  float: left;
+  display: inline;
   text-align: center;
-  height: 65px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 33px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 
@@ -149,11 +148,6 @@ header a:hover {
   height: 40px;
   margin-bottom: -10px;
   pointer-events: none;
-}
-
-#list_space {
-  margin-left: 240px;
-  margin-right: 240px;
 }
 
 .content {
@@ -599,12 +593,47 @@ footer a:hover {
     padding-top: 20px;
     padding-bottom: 10px;
   }
+
+  li.hamburger {
+    display: none;
+  }
+
+  .bottom_header_content_list {
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    list-style-type: none;
+}
+
+  .bottom_header_content_list_item {
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 0px 0px;
+    font-size: 1em;
+  }
+
+  .footer_copyright {
+    margin-top: 60px;
+    padding-left: 30px;
+  }
+  
+  .footer_text_list {
+    position: relative;
+    left: 0;
+    top: 10px;
+  }
+
+  /* responsive */
   
 
   @media (max-width: 1200px) {
     ul.top_header_content_list li:not(:first-child) {display: none;}
 
     ul.top_header_content_list.responsive {position: relative;}
+
     
       ul.top_header_content_list.responsive li.hamburger {
         position: absolute;
@@ -677,6 +706,17 @@ footer a:hover {
       pointer-events: none;
       margin-left: 5px;
   }
+
+  li.hamburger {
+    display: inline;
+  }
+
+  .footer_copyright {
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+  /* HEADER END */
   
   
     .bottom_header_content_list {
@@ -773,15 +813,15 @@ footer a:hover {
   }
 
   .footer_icons {
-    float: right;
-    margin: 10px 10px 0px 0px;
+    float: none;
+    margin: 0px;
   }
 
   .footer_text {
     font-weight: normal;
     margin: 10px 0px 20px 0px;
     padding-left: 0px;
-    font-size: 8px;
+    font-size: .5em;
 }
 
     /* FOOTER END */
