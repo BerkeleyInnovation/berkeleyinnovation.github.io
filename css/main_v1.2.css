@@ -221,8 +221,6 @@ header a:hover {
 }
 .text_column {
   display: inline-block;
-  /*border-left: 0.5px solid #ff6600;*/
-  width: 650px;
   margin-top: 20px;
 }
 
@@ -259,10 +257,21 @@ header a:hover {
 }
 
 .process_title {
-  /*color: #ff6600;*/
   margin-bottom: 200px;
   border-right: 1px solid #ff6600;
-  padding-right: 10px;
+  padding-right: 15px;
+  width: 300px;
+  height: 60px;
+  margin-right: 60px;
+  flex-basis: 10%;
+}
+
+.process_text_box {
+  display: flex;
+}
+
+.process_text {
+  flex-basis: 80%;
 }
 
 .icon {
@@ -398,7 +407,6 @@ footer a:hover {
 .footer_icons {
   /*border: 1px solid black;*/
   float: right;
-  width: 200px;
   height: 50px;
   margin-top: 10px;
 }
@@ -613,17 +621,41 @@ footer a:hover {
     justify-content: center;
     margin: 0px 10px 0px 0px;
     font-size: 1em;
+    list-style-type: none;
   }
 
   .footer_copyright {
     margin-top: 60px;
-    padding-left: 30px;
+    padding-left: 2px;
   }
   
   .footer_text_list {
     position: relative;
-    left: 0;
+    left: -30px;
     top: 10px;
+  }
+
+  #process_2 {
+    margin-left: 113px;
+  }
+
+  #process_3 {
+    margin-left: 70px;
+  }
+
+  #process_body_bottom {
+    margin-top: -80px; 
+    margin-bottom: 50px;
+  }
+
+  #process_body_bottom_text {
+    margin-bottom: 40px;
+  }
+
+  #wide_figure_caption {
+    float: right; 
+    margin-top: -5px; 
+    margin-right: 55px;
   }
 
   /* responsive */
@@ -740,6 +772,7 @@ footer a:hover {
       justify-content: center;
       margin: 0px 10px 0px 0px;
       font-size: 10px;
+      list-style-type: none;
     }
 
     /* BODY START */
@@ -827,10 +860,90 @@ footer a:hover {
     font-size: .5em;
 }
 
+.footer_text_list {
+  left: 0px;
+}
+
 .footer_copyright {
   margin-top: 20px;
   padding-left: 0px;
 }
 
     /* FOOTER END */
+
+    /* PROCESS START */
+
+    #process_first_title {
+      margin-bottom: 20px;
+      font-size: 2.1rem;
+    }
+
+    #side_pic {
+      width: 200px;
+    }
+
+    .small_text {
+      font-size: 1.1em;
+    }
+
+    #quote_box {
+      font-size: 1.0em;
+    }
+
+    #tim_brown {
+      margin-top: 10px;
+    }
+
+    .process_text_box {
+      display: block;
+    }
+
+    .text_column {
+      display: inline-block;
+      margin-top: 0px;
+      width: 100%;
+  }
+
+  .process_title {
+    margin-bottom: 0px;
+    border-right: none;
+    padding-right: 15px;
+    width: 300px;
+    height: auto;
+    margin-right: 60px;
+    flex-basis: 10%;
+}
+
+.process_text {
+  width: 85%;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+  #process_2 {
+    margin-left: 0px;
+  }
+
+  #process_3 {
+    margin-left: 0px;
+  }
+
+  #process_body_bottom {
+    margin-top: 0px; 
+    margin-bottom: 50px;
+  }
+
+  #wide_figure {
+    width: 90%;
+    margin-left: 0px;
+}
+
+  #wide_figure_caption {
+    float: none; 
+  }
+
+  /* PROCESS END */
+
+    
+    
   }

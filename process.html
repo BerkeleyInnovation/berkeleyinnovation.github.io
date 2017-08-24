@@ -9,6 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/main.js"></script>
     <link rel="canonical" href="http://berkeleyinnovation.org/process/">
@@ -29,17 +30,26 @@
   </head>
 
   <body>
+      <script>
+          function responsive() {
+            var x = document.getElementById("myTopNav");
+            if (x.className === "top_header_content_list") {
+              x.className += " responsive";
+            } else {
+              x.className = "top_header_content_list";
+            }
+          }
+        </script>
+
     <div class="background">
 
     <header class="top_header">
       <div class="top_header_content">
-        <ul class="top_header_content_list">
+        <ul class="top_header_content_list" id="myTopNav">
           <li class="top_header_content_list_item">
             <a href="http://berkeleyinnovation.org/"><img id="bi_logo" src="media/logo.png"></a>
           </li>
-          <li class="top_header_content_list_item" id="list_space">
-            <a></a>
-          </li>
+          <li class="top_header_content_list" id="list_space" style="margin-right: 50%;"></li>
           <li class="top_header_content_list_item">
             <a href="/about" id="about">ABOUT</a>
           </li>
@@ -51,6 +61,9 @@
           </li>
           <li class="top_header_content_list_item">
             <a href="/partner" id="partner">PARTNER</a>
+          </li>
+          <li class="hamburger">
+              <a href="javascript:void(0);" onclick="responsive()">&#9776;</a>
           </li>
         </ul>
 
@@ -94,52 +107,55 @@
 
     <section class="content">
       <div class="content_body">
-        <h1>We're all about the process.</h1>
-        <div class="text_box">
+        <h1 id="process_first_title">We're all about the process.</h1>
+        <div class="text_box small_text">
           <img id="side_pic" src="media/English_dt_600px.png">
           <p>Our creative approach to the human-centered design process is what makes us Berkeley Innovation.
             We thus thrive at the intersection of desirability, viability, and feasibility.</p>
-          <div id="quote_box">“<h6>Design thinking</h6> is a <h6>human-centered</h6> approach to <h6>innovation</h6> that draws from the designer’s toolkit to integrate the <h6>needs of people</h6>, the possibilities of technology, and the requirements for <h6>business success</h6>.” <h5>- Tim Brown, CEO of IDEO</h5> </div>
+          <div id="quote_box">“<h6>Design thinking</h6> is a <h6>human-centered</h6> approach to <h6>innovation</h6> that draws from the designer’s toolkit to integrate the <h6>needs of people</h6>, the possibilities of technology, and the requirements for <h6>business success</h6>.” <h5 id="tim_brown">- Tim Brown, CEO of IDEO</h5> </div>
         </div>
 
-
-        <div class="title_column">
-          <h2 class="process_title" style="margin-bottom: 292px">Inspiration</h2>
-          <h2 class="process_title" style="margin-bottom: 295px">Ideation</h2>
-          <h2 class="process_title">Implementation</h2>
-        </div>
         <div class="text_column">
-          <div class="text_box">
-            <p>Although designers do not always work through each of the three phases linearly, the human-centered design process generally begins with the inspiration phase.
-              A problem or opportunity motivates people to search for solutions, and the process begins when a set of mental constraints gives a team a framework to work to begin with.</p>
-            <p>Once constraints are laid down, designers begin to discover what people’s needs are.
-              A good starting point is for designers to go out into the world and observe the actual experiences of their user, whether it be college students, farmers, or grocery shoppers.
-              Traditional methods of research, such as focus groups and surveys, tend to yield biased results that tend to confirm what is already known.</p>
+          <div class="process_text_box">
+            <h2 class="process_title">Implementation</h2>
+            <div class="process_text">
+                <p>Although designers do not always work through each of the three phases linearly, the human-centered design process generally begins with the inspiration phase.
+                    A problem or opportunity motivates people to search for solutions, and the process begins when a set of mental constraints gives a team a framework to work to begin with.</p>
+                  <p>Once constraints are laid down, designers begin to discover what people’s needs are.
+                    A good starting point is for designers to go out into the world and observe the actual experiences of their user, whether it be college students, farmers, or grocery shoppers.
+                    Traditional methods of research, such as focus groups and surveys, tend to yield biased results that tend to confirm what is already known.</p>
+            </div>
           </div>
-          <div class="text_box">
-            <p>The second phase is ideation, where our designers begin to synthesize their research which can lead to solutions and opportunities for change.
-              During this process, divergent thinking is encouraged, where quantity of ideas takes precedence over quality.
-              This is supported by having a diverse group of people and a multidisciplinary team from all disciplines.</p>
-            <p>To work in an interdisciplinary environment, “T-shaped” people are valued where an individual has strengths in two dimensions.
-              On the vertical axis and stem of a “T”, every team member possesses some depth of skill to make tangible contributions to a goal. However, the top of the “T” is where designers are made, and empathy for others’ disciplines allows for deep collaboration and cross-pollination of ideas.</p>
+          <div class="process_text_box" id="process_2">
+            <h2 class="process_title">Ideation</h2>
+            <div class="process_text">
+                <p>The second phase is ideation, where our designers begin to synthesize their research which can lead to solutions and opportunities for change.
+                    During this process, divergent thinking is encouraged, where quantity of ideas takes precedence over quality.
+                    This is supported by having a diverse group of people and a multidisciplinary team from all disciplines.</p>
+                  <p>To work in an interdisciplinary environment, “T-shaped” people are valued where an individual has strengths in two dimensions.
+                    On the vertical axis and stem of a “T”, every team member possesses some depth of skill to make tangible contributions to a goal. However, the top of the “T” is where designers are made, and empathy for others’ disciplines allows for deep collaboration and cross-pollination of ideas.</p>
+            </div>
           </div>
-          <div class="text_box">
-            <p>The third phase of the design thinking process is implementation, when the best ideas from ideation are turned into a concrete plan.
-              The core of implementation is prototyping, or turning ideas into actual products that can be tested, iterated, and refined.
-              Prototyping is particularly important for products and services when validating a component of a product, graphics on a screen, or details in interactions.
-              After prototyping, a design team helps create a communication strategy based on storytelling.</p>
+          <div class="process_text_box" id="process_3">
+            <h2 class="process_title">Inspiration</h2>
+            <div class="process_text">
+                <p>The third phase of the design thinking process is implementation, when the best ideas from ideation are turned into a concrete plan.
+                    The core of implementation is prototyping, or turning ideas into actual products that can be tested, iterated, and refined.
+                    Prototyping is particularly important for products and services when validating a component of a product, graphics on a screen, or details in interactions.
+                    After prototyping, a design team helps create a communication strategy based on storytelling.</p>
+            </div>
           </div>
 
         </div>
 
 
-        <div class="text_box" style="margin-top: -80px; margin-bottom: 50px">
-          <p style="margin-bottom: 40px">Summarizing the three steps above, we result in the following graph:</p>
+        <div class="text_box" id="process_body_bottom">
+          <p id="process_body_bottom_text">Summarizing the three steps above, we result in the following graph:</p>
             <img id="wide_figure" src="media/DesignThinkingPhases.png">
-            <h7 style="float: right; margin-top: -5px; margin-right: 55px">Source: Acumen’s course on NovoEd</h7>
+            <h7 id="wide_figure_caption">Source: Acumen’s course on NovoEd</h7>
         </div>
 
-        <div class="text_box" style="margin-bottom: 100px">
+        <div class="text_box">
           <p>Want to learn more about the human-centered design process? Take our <a href="/decal">{design.} DeCal</a></p>
         </div>
 
@@ -153,56 +169,60 @@
       </div>
 
       <footer>
-        <div class="footer_content">
-          <div class="footer_icons">
-            <ul class="top_header_content_list">
-              <li class="top_header_content_list_item">
-                <a class="fb_icon" href="https://www.facebook.com/berkeleyinnovation">
-                  <img style="width: 24px;" src="media/socialmedia/facebook28.png">
-                </a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a class="tw_icon" href="https://twitter.com/BInnovate">
-                  <img style="width: 24px;" src="media/socialmedia/twitter2828.png">
-                </a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a class="li_icon" href="https://www.linkedin.com/company/berkeley-innovation">
-                  <img style="width: 24px;" src="media/socialmedia/linkedin28.png">
-                </a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a class="yt_icon" href="https://www.youtube.com/user/berkeleyinnovation/videos">
-                  <img style="width: 24px;" src="media/socialmedia/youtube28.png">
-                </a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a class="ig_icon" href="https://www.instagram.com/berkeleyinnovation/">
-                  <img style="width: 24px;" src="media/socialmedia/instagram28.png">
-                </a>
-              </li>
-            </ul>
+          <div class="footer_content">
+            <div class="footer_icons">
+              <ul class="bottom_header_content_list icon_list">
+                <li class="bottom_header_content_list_item icon_list_item">
+                  <a class="fb_icon" href="https://www.facebook.com/berkeleyinnovation">
+                    <img style="width: 24px;" src="media/socialmedia/facebook28.png">
+                  </a>
+                </li>
+                <li class="bottom_header_content_list_item icon_list_item">
+                  <a class="tw_icon" href="https://twitter.com/BInnovate">
+                    <img style="width: 24px;" src="media/socialmedia/twitter2828.png">
+                  </a>
+                </li>
+                <li class="bottom_header_content_list_item icon_list_item">
+                  <a class="li_icon" href="https://www.linkedin.com/company/berkeley-innovation">
+                    <img style="width: 24px;" src="media/socialmedia/linkedin28.png">
+                  </a>
+                </li>
+                <li class="bottom_header_content_list_item icon_list_item">
+                  <a class="yt_icon" href="https://www.youtube.com/user/berkeleyinnovation/videos">
+                    <img style="width: 24px;" src="media/socialmedia/youtube28.png">
+                  </a>
+                </li>
+                <li class="bottom_header_content_list_item icon_list_item">
+                  <a class="ig_icon" href="https://www.instagram.com/berkeleyinnovation/">
+                    <img style="width: 24px;" src="media/socialmedia/instagram28.png">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_text_list">
+                <ul class="text_list">
+                    <li class="bottom_header_content_list_item text_list_item">
+                      <a href="http://berkeleyinnovation.org/">Home</a>
+                    </li>
+                    <li class="bottom_header_content_list_item text_list_item">
+                      <a href="/about">About</a>
+                    </li>
+                    <li class="bottom_header_content_list_item text_list_item">
+                      <a href="/process">Process</a>
+                    </li>
+                    <li class="bottom_header_content_list_item text_list_item">
+                      <a href="/portfolio">Portfolio</a>
+                    </li>
+                    <li class="bottom_header_content_list_item text_list_item">
+                      <a href="/partner">Partner</a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="footer_copyright">
+                <h4 class="footer_text">© 2016 Berkeley Innovation. All rights reserved.</h4>
+            </div>
           </div>
-            <ul class="top_header_content_list">
-              <li class="top_header_content_list_item">
-                <a href="http://berkeleyinnovation.org/">Home</a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a href="/about">About</a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a href="/process">Process</a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a href="/portfolio">Portfolio</a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a href="/partner">Partner</a>
-              </li>
-            </ul>
-          <h4 class="footer_text">© 2016 Berkeley Innovation. All rights reserved.</h4>
-        </div>
-      </footer>
+        </footer>
 
 
     </section>
