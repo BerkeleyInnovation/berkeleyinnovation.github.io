@@ -628,6 +628,8 @@ footer a:hover {
     top: 10px;
     right: 10px;
     left: 10px;
+    height: auto;
+    min-width: 0px;
   }
 
   .top_header {
