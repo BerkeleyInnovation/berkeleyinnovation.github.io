@@ -423,8 +423,6 @@ footer a:hover {
 
 #contact {height:100%; margin: 10px 20px; background: #DDD;background-color: #ffffff; margin-bottom: 100px;}
 
-.container {width:880px; height:auto; margin: 0 auto; padding: 25px 0; background-color: #ffffff;}
-
 #contact .container form input,
 #contact .container form textarea {
 	width:97.3%;
@@ -710,6 +708,14 @@ footer a:hover {
     -o-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     backface-visibility: hidden;
+}
+
+.contact_container {
+  width: 100%;
+}
+
+#contact .container form .submit {
+  margin-left: 40%;
 }
 
   /* responsive */
@@ -1043,4 +1049,16 @@ footer a:hover {
     }
 
     /* PORTFOLIO END */
+
+    /* PARTNER START */
+
+  #contact .container form .submit {
+    margin-left: 25%;
+  }
+
+  .contact_container {
+    margin-left: -10px;
+  }
+
+  /* PARTNER END */
   }

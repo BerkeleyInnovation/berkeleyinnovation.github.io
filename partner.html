@@ -9,6 +9,8 @@
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,900' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/app.js"></script>
@@ -50,7 +52,7 @@
           <li class="top_header_content_list_item">
             <a href="http://berkeleyinnovation.org/"><img id="bi_logo" src="media/logo.png"></a>
           </li>
-          <li class="top_header_content_list_item" id="list_space">
+          <li class="top_header_content_list_item" id="list_space" style="margin-right: 50%;">
             <a></a>
           </li>
           <li class="top_header_content_list_item">
@@ -136,46 +138,40 @@
         <h1 id="past_sponsors">Past Sponsors</h1>
         <div class="text_box">
           <p> Since 2003, Berkeley Innovation has worked with companies such as these: </p>
-          <table>
-            <tr>
-              <td><a href="https://www.palantir.com/"><img class="table_logo" style="height: 45px" src="media/companies/palantir.png"></a></td>
-              <td><a href="https://www.quora.com/"><img class="table_logo" style="height: 45px" src="media/companies/quora.png"></a></td>
-              <td><a href="https://www.microsoft.com/en-us/"><img class="table_logo" src="media/companies/microsoft.png"></a></td>
-              <td><a href="https://www.google.com/"><img class="table_logo" src="media/companies/google.png"></a></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <td><a href="https://www.sketchapp.com/"><img class="table_logo" src="media/companies/sketch_new.png"></a></td>
-              <td><a href="https://www.indiegogo.com/"><img class="table_logo" src="media/companies/indiegogo.png"></a></td>
-              <td><a href="http://www.adobe.com/"><img class="table_logo" src="media/companies/adobe.png"></a></td>
-              <td><a href="https://www.workday.com/"><img class="table_logo" src="media/companies/workday.png"></a></td>
-              <td><a href="http://mlb.mlb.com/home"><img class="table_logo" style="height: 60px" src="media/companies/mlb.png"></a></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <td><a href="https://evernote.com/"><img class="table_logo" src="media/companies/evernote.png"></a></td>
-              <td><a href="https://a16z.com/"><img class="table_logo" src="media/companies/a16z.png"></a></td>
-              <td><a href="https://www.walmart.com/"><img class="table_logo" src="media/companies/walmart.png"></a></td>
-              <td><a href="http://www.cisco.com/"><img class="table_logo" src="media/companies/cisco.png"></a></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <td><a href="https://blend.com/"><img class="table_logo" style="height: 45px" src="media/companies/blend.png"></a></td>
-              <td><a href="https://www.coursehero.com/"><img class="table_logo" style="height: 55px" src="media/companies/coursehero.png"></a></td>
-              <td><a href="https://www.usertesting.com/"><img class="table_logo" style="height: 45px" src="media/companies/usertesting.png"></a></td>
-              <td><a href="https://gradescope.com/"><img class="table_logo" src="media/companies/gradescope.png"></a></td>
-              <td><a href="https://www.berkeley.edu/"><img class="table_logo" src="media/companies/berkeley.png"></a></td>
-            </tr>
-          </table>
+          <div class="company_grid">
+              <div class="company_row">
+                    <td><a href="https://www.palantir.com/"><img class="table_logo"  src="media/companies/palantir.png"></a></td>
+                    <td><a href="https://www.quora.com/"><img class="table_logo"  src="media/companies/quora.png"></a></td>
+                    <td><a href="https://www.microsoft.com/en-us/"><img class="table_logo" src="media/companies/microsoft.png"></a></td>
+                    <td><a href="https://www.google.com/"><img class="table_logo" src="media/companies/google.png"></a></td>
+                </div>
+                <div class="company_row">
+                    <td><a href="https://www.sketchapp.com/"><img class="table_logo" src="media/companies/sketch_new.png"></a></td>
+                    <td><a href="https://www.indiegogo.com/"><img class="table_logo" src="media/companies/indiegogo.png"></a></td>
+                    <td><a href="http://www.adobe.com/"><img class="table_logo" src="media/companies/adobe.png"></a></td>
+                    <td><a href="https://www.workday.com/"><img class="table_logo" src="media/companies/workday.png"></a></td>
+                    <td><a href="http://mlb.mlb.com/home"><img class="table_logo"  src="media/companies/mlb.png"></a></td>
+                </div>
+                <div class="company_row">
+                    <td><a href="https://evernote.com/"><img class="table_logo" src="media/companies/evernote.png"></a></td>
+                    <td><a href="https://a16z.com/"><img class="table_logo" src="media/companies/a16z.png"></a></td>
+                    <td><a href="https://www.walmart.com/"><img class="table_logo" src="media/companies/walmart.png"></a></td>
+                    <td><a href="http://www.cisco.com/"><img class="table_logo" src="media/companies/cisco.png"></a></td>
+                </div>
+                <div class="company_row">
+                    <td><a href="https://blend.com/"><img class="table_logo"  src="media/companies/blend.png"></a></td>
+                    <td><a href="https://www.coursehero.com/"><img class="table_logo"  src="media/companies/coursehero.png"></a></td>
+                    <td><a href="https://www.usertesting.com/"><img class="table_logo"  src="media/companies/usertesting.png"></a></td>
+                    <td><a href="https://gradescope.com/"><img class="table_logo" src="media/companies/gradescope.png"></a></td>
+                    <td><a href="https://www.berkeley.edu/"><img class="table_logo" src="media/companies/berkeley.png"></a></td>
+                </div>
+          </div>
         </div>
 
         <h1 id="contact_us">Contact Us</h1>
 
         <section id="contact">
-          <div class="container">
+          <div class="container contact_container">
             <h4> Note: We are no longer accepting clients for consulting projects for the Spring 2017 semester! Please check back
               in the Fall. </h4>
 
@@ -196,56 +192,60 @@
       </div>
 
       <footer>
-        <div class="footer_content">
-          <div class="footer_icons">
-            <ul class="top_header_content_list">
-              <li class="top_header_content_list_item">
-                <a class="fb_icon" href="https://www.facebook.com/berkeleyinnovation">
-                  <img style="width: 24px;" src="media/socialmedia/facebook28.png">
-                </a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a class="tw_icon" href="https://twitter.com/BInnovate">
-                  <img style="width: 24px;" src="media/socialmedia/twitter2828.png">
-                </a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a class="li_icon" href="https://www.linkedin.com/company/berkeley-innovation">
-                  <img style="width: 24px;" src="media/socialmedia/linkedin28.png">
-                </a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a class="yt_icon" href="https://www.youtube.com/user/berkeleyinnovation/videos">
-                  <img style="width: 24px;" src="media/socialmedia/youtube28.png">
-                </a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a class="ig_icon" href="https://www.instagram.com/berkeleyinnovation/">
-                  <img style="width: 24px;" src="media/socialmedia/instagram28.png">
-                </a>
-              </li>
-            </ul>
+          <div class="footer_content">
+            <div class="footer_icons">
+              <ul class="bottom_header_content_list icon_list">
+                <li class="bottom_header_content_list_item icon_list_item">
+                  <a class="fb_icon" href="https://www.facebook.com/berkeleyinnovation">
+                    <img style="width: 24px;" src="media/socialmedia/facebook28.png">
+                  </a>
+                </li>
+                <li class="bottom_header_content_list_item icon_list_item">
+                  <a class="tw_icon" href="https://twitter.com/BInnovate">
+                    <img style="width: 24px;" src="media/socialmedia/twitter2828.png">
+                  </a>
+                </li>
+                <li class="bottom_header_content_list_item icon_list_item">
+                  <a class="li_icon" href="https://www.linkedin.com/company/berkeley-innovation">
+                    <img style="width: 24px;" src="media/socialmedia/linkedin28.png">
+                  </a>
+                </li>
+                <li class="bottom_header_content_list_item icon_list_item">
+                  <a class="yt_icon" href="https://www.youtube.com/user/berkeleyinnovation/videos">
+                    <img style="width: 24px;" src="media/socialmedia/youtube28.png">
+                  </a>
+                </li>
+                <li class="bottom_header_content_list_item icon_list_item">
+                  <a class="ig_icon" href="https://www.instagram.com/berkeleyinnovation/">
+                    <img style="width: 24px;" src="media/socialmedia/instagram28.png">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer_text_list">
+                <ul class="text_list">
+                    <li class="bottom_header_content_list_item text_list_item">
+                      <a href="http://berkeleyinnovation.org/">Home</a>
+                    </li>
+                    <li class="bottom_header_content_list_item text_list_item">
+                      <a href="/about">About</a>
+                    </li>
+                    <li class="bottom_header_content_list_item text_list_item">
+                      <a href="/process">Process</a>
+                    </li>
+                    <li class="bottom_header_content_list_item text_list_item">
+                      <a href="/portfolio">Portfolio</a>
+                    </li>
+                    <li class="bottom_header_content_list_item text_list_item">
+                      <a href="/partner">Partner</a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="footer_copyright">
+                <h4 class="footer_text">© 2016 Berkeley Innovation. All rights reserved.</h4>
+            </div>
           </div>
-          <ul class="top_header_content_list">
-            <li class="top_header_content_list_item">
-              <a href="http://berkeleyinnovation.org/">Home</a>
-            </li>
-            <li class="top_header_content_list_item">
-              <a href="/about">About</a>
-            </li>
-            <li class="top_header_content_list_item">
-              <a href="/process">Process</a>
-            </li>
-            <li class="top_header_content_list_item">
-              <a href="/portfolio">Portfolio</a>
-            </li>
-            <li class="top_header_content_list_item">
-              <a href="/partner">Partner</a>
-            </li>
-          </ul>
-          <h4 class="footer_text">© 2016 Berkeley Innovation. All rights reserved.</h4>
-        </div>
-      </footer>
+        </footer>
 
     </section>
   </div>
