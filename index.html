@@ -1,117 +1,119 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Berkeley Innovation</title>
-    <link rel="stylesheet" type="text/css" href="css/homepage_v1.2.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Berkeley Innovation is the premier human-centered design consultancy at UC Berkeley. Since 2003, we’ve united makers, thinkers, tinkerers, and doers from a wide range of disciplines behind a shared love for design innovation.">
+<head>
+  <meta charset="utf-8">
+  <title>Berkeley Innovation</title>
+  <link rel="stylesheet" type="text/css" href="css/homepage_v1.2.css">
 
-    <link rel="icon" type="image/png" href="media/site_logo.png">
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,900' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Berkeley Innovation is the premier human-centered design consultancy at UC Berkeley. Since 2003, we’ve united makers, thinkers, tinkerers, and doers from a wide range of disciplines behind a shared love for design innovation.">
 
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/cheet.min.js"></script>
+  <link rel="icon" type="image/png" href="media/site_logo.png">
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
 
-    <link rel="canonical" href="https://berkeleyinnovation.org/">
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/cheet.min.js"></script>
 
-    <!--Google Analytics-->
-    <script>
-     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <link rel="canonical" href="https://berkeleyinnovation.org/">
 
-     ga('create', 'UA-83384107-1', 'auto');
-     ga('send', 'pageview');
-     ga('set', 'page', '/index')
+  <!--Google Analytics-->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    </script>
-      <!-- End Google Analytics -->
-  </head>
+    ga('create', 'UA-83384107-1', 'auto');
+    ga('send', 'pageview');
+    ga('set', 'page', '/index')
+  </script>
+  <!-- End Google Analytics -->
+</head>
 
-  <body>
+<body>
 
-    <script>
+  <script>
     function responsive() {
-        var x = document.getElementById("myTopNav");
-        if (x.className === "top_header_content_list") {
-            x.className += " responsive";
-        } else {
-            x.className = "top_header_content_list";
-        }
+      var x = document.getElementById("myTopNav");
+      if (x.className === "top_header_content_list") {
+        x.className += " responsive";
+      } else {
+        x.className = "top_header_content_list";
+      }
     }
-    </script>
+  </script>
 
-    <div class="background_orange">
+  <div class="background_orange">
     <header class="top_header">
       <!-- <div class="top_header_content"> -->
-        <ul class="top_header_content_list" id="myTopNav">
-          <li>
-            <a href="http://berkeleyinnovation.org/" onclick="ga('send', 'event','header_logo', 'click')"><img id="bi_logo" src="media/full_logo.png"></a>
-          </li>
-          <li>
-            <a href="/about" id="about" onclick="ga('send', 'event','header_about_link', 'click')">ABOUT</a>
-          </li>
-          <li>
-            <a href="/process" id="process" onclick="ga('send', 'event','header_process_link', 'click')">PROCESS</a>
-          </li>
-          <li>
-            <a href="/portfolio" onclick="ga('send', 'event','header_portfolio_link', 'click')">PORTFOLIO</a>
-          </li>
-          <li>
-            <a href="/partner" id="partner" onclick="ga('send', 'event','header_partner_link', 'click')">PARTNER</a>
-          </li>
+      <ul class="top_header_content_list" id="myTopNav">
+        <li>
+          <a href="http://berkeleyinnovation.org/" onclick="ga('send', 'event','header_logo', 'click')"><img id="bi_logo" src="media/logo.png"></a>
+        </li>
+        <li class="top_header_content_list" id="list_space"></li>
+        <li>
+          <a href="/about" id="about" onclick="ga('send', 'event','header_about_link', 'click')">ABOUT</a>
+        </li>
+        <li>
+          <a href="/process" id="process" onclick="ga('send', 'event','header_process_link', 'click')">PROCESS</a>
+        </li>
+        <li>
+          <a href="/portfolio" onclick="ga('send', 'event','header_portfolio_link', 'click')">PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="/partner" id="partner" onclick="ga('send', 'event','header_partner_link', 'click')">PARTNER</a>
+        </li>
 
-          <li class="hamburger">
-            <a href="javascript:void(0);" onclick="responsive()">&#9776;</a>
-          </li>
-        </ul>
+        <li class="hamburger">
+          <a href="javascript:void(0);" onclick="responsive()">&#9776;</a>
+        </li>
+      </ul>
 
-        <!--Subheaders start-->
-        <ul class="subheader" id="subheader_about">
-          <li class="subheader_content_list_item">
-            <a href="/about#join_us" onclick="ga('send', 'event','header_join_link', 'click')">Join Us</a>
-          </li>
-          <li class="subheader_content_list_item">
-            <a href="/about#leadership" onclick="ga('send', 'event','header_leadership_link', 'click')">Leadership</a>
-          </li>
-          <li class="subheader_content_list_item">
-            <a href="/about#life_after_bi" onclick="ga('send', 'event','header_alumni_link', 'click')">Life after BI</a>
-          </li>
-        </ul>
+      <!--Subheaders start-->
+      <ul class="subheader" id="subheader_about">
+        <li class="subheader_content_list_item">
+          <a href="/about#join_us" onclick="ga('send', 'event','header_join_link', 'click')">Join Us</a>
+        </li>
+        <li class="subheader_content_list_item">
+          <a href="/about#leadership" onclick="ga('send', 'event','header_leadership_link', 'click')">Leadership</a>
+        </li>
+        <li class="subheader_content_list_item">
+          <a href="/about#life_after_bi" onclick="ga('send', 'event','header_alumni_link', 'click')">Life after BI</a>
+        </li>
+      </ul>
 
-        <ul class="subheader" id="subheader_process">
-          <li class="subheader_content_list_item">
-            <a href="/process" onclick="ga('send', 'event','header_process_link', 'click')">Innovation</a>
-          </li>
-          <li class="subheader_content_list_item">
-            <a href="/decal" onclick="ga('send', 'event','header_decal_link', 'click')">DeCal</a>
-          </li>
-        </ul>
+      <ul class="subheader" id="subheader_process">
+        <li class="subheader_content_list_item">
+          <a href="/process" onclick="ga('send', 'event','header_process_link', 'click')">Innovation</a>
+        </li>
+        <li class="subheader_content_list_item">
+          <a href="/decal" onclick="ga('send', 'event','header_decal_link', 'click')">DeCal</a>
+        </li>
+      </ul>
 
-        <ul class="subheader" id="subheader_partner">
-          <li class="subheader_content_list_item">
-            <a href="/partner#partner_with_us" onclick="ga('send', 'event','header_partner_link', 'click')">Partner with Us</a>
-          </li>
-          <li class="subheader_content_list_item">
-            <a href="/partner#past_sponsors" onclick="ga('send', 'event','header_sponsors_link', 'click')">Past Sponsors</a>
-          </li>
-          <li class="subheader_content_list_item">
-            <a href="/partner#contact_us" onclick="ga('send', 'event','contact', 'click')">Contact Us</a>
-          </li>
-        </ul>
-        <!--Subheaders end-->
-     <!--  </div> -->
+      <ul class="subheader" id="subheader_partner">
+        <li class="subheader_content_list_item">
+          <a href="/partner#partner_with_us" onclick="ga('send', 'event','header_partner_link', 'click')">Partner with Us</a>
+        </li>
+        <li class="subheader_content_list_item">
+          <a href="/partner#past_sponsors" onclick="ga('send', 'event','header_sponsors_link', 'click')">Past Sponsors</a>
+        </li>
+        <li class="subheader_content_list_item">
+          <a href="/partner#contact_us" onclick="ga('send', 'event','contact', 'click')">Contact Us</a>
+        </li>
+      </ul>
+      <!--Subheaders end-->
+      <!--  </div> -->
 
     </header>
 
     <video class="vid" id="adam" poster="media/heroes/static.png" autoplay loop>
-      <source class="vid" id="adam" src= "media/heroes/hero.mp4" type="video/mp4"></source>
+      <source class="vid" id="adam" src="media/heroes/hero.mp4" type="video/mp4"></source>
     </video>
 
 
@@ -121,81 +123,93 @@
     </div>
 
     <div class="mobile-body-content">
-      <h1>UC Berkeley's</h1>
-      <h1>Human-Centered</h1>
-      <h1>Design Consultancy</h1>
-      <a href="/process" onclick="ga('send', 'event','index_process_button', 'click')"><div id="how_we_think">HOW WE THINK</div></a>
-      <a href="/spring17" onclick="ga('send', 'event','index_join_button', 'click')"><div id="join_us">JOIN US</div></a>
+      <div class="mobile-body-content-text">
+        <h1>UC Berkeley's</h1>
+        <h1>Human-Centered</h1>
+        <h1>Design Consultancy</h1>
+        <a href="/process" onclick="ga('send', 'event','index_process_button', 'click')">
+          <div id="how_we_think">HOW WE THINK</div>
+        </a>
+        <a href="/spring17" onclick="ga('send', 'event','index_join_button', 'click')">
+          <div id="join_us">JOIN US</div>
+        </a>
+      </div>
     </div>
 
 
-<!--       <div class="content"> -->
-        <div class="content_body index_content">
+    <!--       <div class="content"> -->
+    <div class="content_body index_content">
 
-          <div class="text_box">
-            <h1>UC Berkeley's</h1>
-            <h1>Human-Centered</h1>
-            <h1>Design Consultancy</h1>
-            <a href="/process" onclick="ga('send', 'event','index_process_button', 'click')"><div id="how_we_think">HOW WE THINK</div></a>
-            <a href="/spring17" onclick="ga('send', 'event','index_join_button', 'click')"><div id="join_us">JOIN US</div></a>
-          </div>
-
-        </div>
+      <div class="text_box">
+        <h1>UC Berkeley's</h1>
+        <h1>Human-Centered</h1>
+        <h1>Design Consultancy</h1>
+        <a href="/process" onclick="ga('send', 'event','index_process_button', 'click')">
+          <div id="how_we_think">HOW WE THINK</div>
+        </a>
+        <a href="/spring17" onclick="ga('send', 'event','index_join_button', 'click')">
+          <div id="join_us">JOIN US</div>
+        </a>
       </div>
-<!--     </div> -->
+
+    </div>
+  </div>
+  <!--     </div> -->
 
   <footer>
     <div class="footer_content">
-      <div class="footer_icons">
-        <ul class="top_header_content_list">
-          <li class="top_header_content_list_item">
-            <a class="fb_icon" href="https://www.facebook.com/berkeleyinnovation">
-              <img style="width: 24px;" src="media/socialmedia/facebook28.png">
+      <div class="footer_content_primary">
+        <div class="footer_icons">
+          <ul class="bottom_header_content_list icon_list">
+            <li class="bottom_header_content_list_item icon_list_item">
+              <a class="fb_icon bottom_header_icon" href="https://www.facebook.com/berkeleyinnovation">
+              <img style="width: 30px;" src="media/socialmedia/facebook28.png">
             </a>
-          </li>
-          <li class="top_header_content_list_item">
-            <a class="tw_icon" href="https://twitter.com/BInnovate">
-              <img style="width: 24px;" src="media/socialmedia/twitter2828.png">
+            </li>
+            <li class="bottom_header_content_list_item icon_list_item">
+              <a class="tw_icon" href="https://twitter.com/BInnovate">
+              <img class="bottom_header_icon" style="width: 30px;" src="media/socialmedia/twitter2828.png">
             </a>
-          </li>
-          <li class="top_header_content_list_item">
-            <a class="li_icon" href="https://www.linkedin.com/company/berkeley-innovation">
-              <img style="width: 24px;" src="media/socialmedia/linkedin28_dark.png">
+            </li>
+            <li class="bottom_header_content_list_item icon_list_item">
+              <a class="li_icon" href="https://www.linkedin.com/company/berkeley-innovation">
+              <img class="bottom_header_icon" style="width: 30px;" src="media/socialmedia/linkedin28_dark.png">
             </a>
-          </li>
-          <li class="top_header_content_list_item">
-            <a class="yt_icon" href="https://www.youtube.com/user/berkeleyinnovation/videos">
-              <img style="width: 24px;" src="media/socialmedia/youtube28.png">
+            </li>
+            <li class="bottom_header_content_list_item icon_list_item">
+              <a class="yt_icon" href="https://www.youtube.com/user/berkeleyinnovation/videos">
+              <img class="bottom_header_icon" style="width: 30px;" src="media/socialmedia/youtube28.png">
             </a>
-          </li>
-          <li class="top_header_content_list_item">
-            <a class="ig_icon" href="https://www.instagram.com/berkeleyinnovation/">
-              <img style="width: 24px;" src="media/socialmedia/instagram28.png">
+            </li>
+            <li class="bottom_header_content_list_item icon_list_item">
+              <a class="ig_icon" href="https://www.instagram.com/berkeleyinnovation/">
+              <img class="bottom_header_icon" style="width: 30px;" src="media/socialmedia/instagram28.png">
             </a>
-          </li>
-        </ul>
-      </div>
-        <ul class="top_header_content_list">
-          <li class="top_header_content_list_item">
+            </li>
+          </ul>
+        </div>
+        <ul class="text_list">
+          <li class="bottom_header_content_list_item text_list_item">
             <a href="http://berkeleyinnovation.org/">Home</a>
           </li>
-          <li class="top_header_content_list_item">
+          <li class="bottom_header_content_list_item text_list_item">
             <a href="/about">About</a>
           </li>
-          <li class="top_header_content_list_item">
+          <li class="bottom_header_content_list_item text_list_item">
             <a href="/process">Process</a>
           </li>
-          <li class="top_header_content_list_item">
+          <li class="bottom_header_content_list_item text_list_item">
             <a href="/portfolio">Portfolio</a>
           </li>
-          <li class="top_header_content_list_item">
+          <li class="bottom_header_content_list_item text_list_item">
             <a href="/partner">Partner</a>
           </li>
         </ul>
+      </div>
       <h4 class="footer_text">© 2017 Berkeley Innovation. All rights reserved.</h4>
     </div>
   </footer>
 
-  </body>
+</body>
 
 </html>

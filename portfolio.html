@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="css/sass-compiled_v1.2.css" />
-<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/main.js"></script>
@@ -40,7 +40,7 @@
           <li class="top_header_content_list_item">
             <a href="http://berkeleyinnovation.org/"><img id="bi_logo" src="media/logo.png"></a>
           </li>
-          <li class="top_header_content_list_item" id="list_space">
+          <li class="top_header_content_list_item" id="list_space" style="margin-right: 50%">
             <a></a>
           </li>
           <li class="top_header_content_list_item">
@@ -54,6 +54,10 @@
           </li>
           <li class="top_header_content_list_item">
             <a href="/partner" id="partner">PARTNER</a>
+          </li>
+
+          <li class="hamburger">
+            <a href="javascript:void(0);" onclick="responsive()">&#9776;</a>
           </li>
         </ul>
 
@@ -105,208 +109,230 @@
             We're a collection of thinkers, makers, tinkerers, and doers from a wide range of disciplines but with a shared love for design innovation.
             Some of our selected projects are below:</p>
         </div>
-        <div class="officer_grid">
-          <section class="wrapper cl">
+        <div class="portfolio_grid">
 
             <!-- ***** LEFT COLUMN ***** -->
 
-            <div class="column">
+            <div class="portfolio_row">
 
-              <a href="https://www.behance.net/gallery/42146605/Indiegogo-Entrepreneur-Profile" target="_blank"><div class="pic">
+              <a href="https://www.behance.net/gallery/42146605/Indiegogo-Entrepreneur-Profile" target="_blank" class="reg_pic_resp"><div class="pic">
                   <img src="media/portfolio/indiegogo.jpg" class="pic-image" alt="Pic"/>
                   <span class="pic-caption bottom-to-top">
                       <h3 class="pic-title">Indiegogo</h3>
                   </span>
               </div></a>
 
-              <a href="https://www.behance.net/gallery/46864183/NLYTN-Health-Application" target="_blank"><div class="pic" id="pic-image">
+              <a href="https://www.behance.net/gallery/46864183/NLYTN-Health-Application" target="_blank" class="reg_pic_resp"><div class="pic" id="pic-image">
                 <img src="media/portfolio/NLYTN_UI.png" class="pic-image" alt="Pic"/>
                 <span class="pic-caption bottom-to-top" style="cursor: pointer">
                   <h3 class="pic-title">NLYTN Beauty</h3>
                 </span>
               </div></a>
 
-              <a href="https://www.behance.net/gallery/46351939/The-House-Berkeley-Innovation" target="_blank"><div class="pic" id="pic-image">
+              <a href="https://www.behance.net/gallery/47890435/BBox-Restaurant-Interace-Mobile-App" target="_blank" class="wide_pic_resp"><div class="pic" id="wide-picc">
+                <img src="media/portfolio/bbox.png" class="pic-image pic-image-wide" alt="Pic"/>
+                <span class="pic-caption bottom-to-top" style="cursor: pointer">
+                  <h3 class="pic-title">Nourish Technologies</h3>
+                </span>
+              </div></a>
+
+            </div>
+
+            <div class="portfolio_row">
+
+              <a href="https://www.behance.net/gallery/46351939/The-House-Berkeley-Innovation" target="_blank" class="reg_pic_resp"><div class="pic" id="pic-image">
                 <img src="media/portfolio/TheHouse2.png" class="pic-image" alt="Pic"/>
                 <span class="pic-caption bottom-to-top" style="cursor: pointer">
                   <h3 class="pic-title">The House</h3>
                 </span>
               </div></a>
 
-              <a href="https://www.behance.net/gallery/43613965/Berkeley-Innovation-Abeato-app-prototype" target="_blank"><div class="pic">
+              <a href="https://www.behance.net/gallery/43613965/Berkeley-Innovation-Abeato-app-prototype" target="_blank" class="reg_pic_resp"><div class="pic">
                   <img src="media/portfolio/abeato.png" class="pic-image" alt="Pic"/>
                   <span class="pic-caption bottom-to-top" style="cursor: pointer">
                     <h3 class="pic-title">Abeato</h3>
                   </span>
               </div></a>
 
-              <a href="https://www.behance.net/gallery/42212683/MLBAM-Interactive-Data-Visualization" target="_blank"><div class="pic" id="wide-pic">
-                <img src="media/portfolio/mlb.png" class="pic-image" alt="Pic"/>
-                <span class="pic-caption bottom-to-top" style="cursor: pointer">
-                  <h3 class="pic-title">Major League Baseball</h3>
-                </span>
-              </div></a>
-
-              <a href="https://www.behance.net/gallery/47986787/Twinkle-Mobile-App" target="_blank"><div class="pic" id="wide-pic">
-                <img src="media/portfolio/twinkle2.png" class="pic-image" alt="Pic"/>
-                <span class="pic-caption bottom-to-top" style="cursor: pointer">
-                  <h3 class="pic-title">Twinkle</h3>
-                </span>
-              </div></a>
-
-              <a href="https://www.behance.net/gallery/47876229/Shake-(Edisons-Co)" target="_blank"><div class="pic" id="pic-image">
-                <img src="media/portfolio/shake_edison.png" class="pic-image" alt="Pic"/>
-                <span class="pic-caption bottom-to-top" style="cursor: pointer">
-                  <h3 class="pic-title">Edison's Co</h3>
-                </span>
-              </div></a>
-
-              <a href="https://www.behance.net/gallery/47995651/Compass-Shelter-Pod-Design" target="_blank"><div class="pic" id="pic-image">
-                <img src="media/portfolio/compass.png" class="pic-image" alt="Pic"/>
-                <span class="pic-caption bottom-to-top" style="cursor: pointer">
-                  <h3 class="pic-title">Compass</h3>
-                </span>
-              </div></a>
-
-              <a href="https://www.behance.net/gallery/25896707/Walmart-Passion-Projects" target="_blank"><div class="pic" id="wide-pic">
-                <img src="media/portfolio/walmart_wide.png" class="pic-image" alt="Pic"/>
-                <span class="pic-caption bottom-to-top" style="cursor: pointer">
-                    <h3 class="pic-title">Walmart</h3>
-                </span>
-              </div></a>
-            </div>
-
-            <!-- ***** RIGHT COLUMN ***** -->
-
-            <div class="column">
-
-              <a href="https://www.behance.net/gallery/47890435/BBox-Restaurant-Interace-Mobile-App" target="_blank"><div class="pic" id="wide-pic">
-                <img src="media/portfolio/bbox.png" class="pic-image" alt="Pic"/>
-                <span class="pic-caption bottom-to-top" style="cursor: pointer">
-                  <h3 class="pic-title">Nourish Technologies</h3>
-                </span>
-              </div></a>
-
-              <a href="https://www.behance.net/gallery/47990897/Quora-UX-Research-Project" target="_blank"><div class="pic" id="pic-image">
+              <a href="https://www.behance.net/gallery/47990897/Quora-UX-Research-Project" target="_blank" class="reg_pic_resp"><div class="pic" id="pic-image">
                 <img src="media/portfolio/quora.png" class="pic-image" alt="Pic"/>
                 <span class="pic-caption bottom-to-top" style="cursor: pointer">
                   <h3 class="pic-title">Quora</h3>
                 </span>
               </div></a>
 
-              <a href="https://www.behance.net/gallery/47852145/NLYTN-Physical-Packaging" target="_blank"><div class="pic" id="pic-image">
+              <a href="https://www.behance.net/gallery/47852145/NLYTN-Physical-Packaging" target="_blank" class="reg_pic_resp"><div class="pic" id="pic-image">
                 <img src="media/portfolio/NLYTN_physical.png" class="pic-image" alt="Pic"/>
                 <span class="pic-caption bottom-to-top" style="cursor: pointer">
                   <h3 class="pic-title">NLYTN Beauty</h3>
                 </span>
               </div></a>
 
-              <a href="https://www.behance.net/gallery/22725769/Radiotopia" target="_blank"><div class="pic">
-                  <img src="media/portfolio/radiotopia.png" class="pic-image" alt="Pic"/>
-                  <span class="pic-caption bottom-to-top" style="cursor: pointer">
-                      <h3 class="pic-title">Vertigo</h3>
-                  </span>
-              </div></a>
+            </div>
 
-              <a href="https://www.behance.net/gallery/42146713/Podo-Labs" target="_blank"><div class="pic">
-                  <img src="media/portfolio/podo.jpg" class="pic-image" alt="Pic"/>
-                  <span class="pic-caption bottom-to-top">
-                      <h3 class="pic-title">Podo Labs</h3>
-                  </span>
-              </div></a>
+            <div class="portfolio_row">
 
-              <a href="https://www.behance.net/gallery/42212789/EchoUser-Portfolio-Project-the-Rave-Experience" target="_blank"><div class="pic" id="pushed-up-pic">
-                  <img src="media/portfolio/echouser.png" class="pic-image" alt="Pic"/>
-                  <span class="pic-caption bottom-to-top" style="cursor: pointer">
-                    <h3 class="pic-title">EchoUser</h3>
-                  </span>
-              </div></a>
+                <a href="https://www.behance.net/gallery/42212683/MLBAM-Interactive-Data-Visualization" target="_blank" class="wide_pic_resp"><div class="pic" id="wide-picc">
+                    <img src="media/portfolio/mlb.png" class="pic-image pic-image-wide" alt="Pic"/>
+                    <span class="pic-caption bottom-to-top" style="cursor: pointer">
+                      <h3 class="pic-title">Major League Baseball</h3>
+                    </span>
+                </div></a>
 
-              <a href="https://www.behance.net/gallery/42146513/Joybook" target="_blank"><div class="pic" id="pushed-up-pic">
-                <img src="media/portfolio/joybook.jpg" class="pic-image" alt="Pic"/>
-                  <span class="pic-caption bottom-to-top">
-                    <h3 class="pic-title">Edison's Co</h3>
-                  </span>
-              </div></a>
+                <a href="https://www.behance.net/gallery/22725769/Radiotopia" target="_blank" class="reg_pic_resp"><div class="pic">
+                    <img src="media/portfolio/radiotopia.png" class="pic-image" alt="Pic"/>
+                    <span class="pic-caption bottom-to-top" style="cursor: pointer">
+                        <h3 class="pic-title">Vertigo</h3>
+                    </span>
+                </div></a>
+  
+                <a href="https://www.behance.net/gallery/42146713/Podo-Labs" target="_blank" class="reg_pic_resp"><div class="pic">
+                    <img src="media/portfolio/podo.jpg" class="pic-image" alt="Pic"/>
+                    <span class="pic-caption bottom-to-top">
+                        <h3 class="pic-title">Podo Labs</h3>
+                    </span>
+                </div></a>
+            </div>
 
-              <a href="https://www.behance.net/gallery/25889991/Project-Spiritus" target="_blank"><div class="pic" id="wide-pic">
-                <img src="media/portfolio/spiritus.png" class="pic-image" alt="Pic"/>
-                  <span class="pic-caption bottom-to-top" style="cursor: pointer">
-                      <h3 class="pic-title">Spiritus</h3>
-                  </span>
-              </div></a>
+            <div class="portfolio_row">
 
+                <a href="https://www.behance.net/gallery/47986787/Twinkle-Mobile-App" target="_blank" class="wide_pic_resp"><div class="pic" id="wide-picc">
+                    <img src="media/portfolio/twinkle2.png" class="pic-image pic-image-wide" alt="Pic"/>
+                    <span class="pic-caption bottom-to-top" style="cursor: pointer">
+                      <h3 class="pic-title">Twinkle</h3>
+                    </span>
+                  </div></a>
 
-              <a href="https://www.behance.net/gallery/25897257/Callisto-Website-ReDesign" target="_blank"><div class="pic">
-                <img src="media/portfolio/callisto.png" class="pic-image" alt="Pic"/>
-                  <span class="pic-caption bottom-to-top">
-                    <h3 class="pic-title">Callisto</h3>
-                  </span>
-              </div></a>
-
-              <a href="https://www.behance.net/gallery/13704767/Re-tasking-Google-Glass-for-Law-Enforcement" target="_blank"><div class="pic">
-                <img src="media/portfolio/glass.jpg" class="pic-image" alt="Pic"/>
-                  <span class="pic-caption bottom-to-top">
-                    <h3 class="pic-title">Accenture Tech Labs</h3>
-                  </span>
-              </div></a>
+                <a href="https://www.behance.net/gallery/42212789/EchoUser-Portfolio-Project-the-Rave-Experience" target="_blank" class="reg_pic_resp"><div class="pic" id="pushed-up-picc">
+                    <img src="media/portfolio/echouser.png" class="pic-image" alt="Pic"/>
+                    <span class="pic-caption bottom-to-top" style="cursor: pointer">
+                      <h3 class="pic-title">EchoUser</h3>
+                    </span>
+                </div></a>
+  
+                <a href="https://www.behance.net/gallery/42146513/Joybook" target="_blank" class="reg_pic_resp"><div class="pic" id="pushed-up-picc">
+                  <img src="media/portfolio/joybook.jpg" class="pic-image" alt="Pic"/>
+                    <span class="pic-caption bottom-to-top">
+                      <h3 class="pic-title">Edison's Co</h3>
+                    </span>
+                </div></a>
 
             </div>
 
-          </section>
+            <div class="portfolio_row">
+
+                <a href="https://www.behance.net/gallery/47876229/Shake-(Edisons-Co)" target="_blank" class="reg_pic_resp"><div class="pic" id="pic-image">
+                    <img src="media/portfolio/shake_edison.png" class="pic-image" alt="Pic"/>
+                    <span class="pic-caption bottom-to-top" style="cursor: pointer">
+                      <h3 class="pic-title">Edison's Co</h3>
+                    </span>
+                  </div></a>
+    
+                  <a href="https://www.behance.net/gallery/47995651/Compass-Shelter-Pod-Design" target="_blank" class="reg_pic_resp"><div class="pic" id="pic-image">
+                    <img src="media/portfolio/compass.png" class="pic-image" alt="Pic"/>
+                    <span class="pic-caption bottom-to-top" style="cursor: pointer">
+                      <h3 class="pic-title">Compass</h3>
+                    </span>
+                  </div></a>
+
+                  <a href="https://www.behance.net/gallery/25889991/Project-Spiritus" target="_blank" class="reg_pic_resp"><div class="pic" id="wide-picc">
+                      <img src="media/portfolio/spiritus.png" class="pic-image pic-image-wide" alt="Pic"/>
+                        <span class="pic-caption bottom-to-top" style="cursor: pointer">
+                            <h3 class="pic-title">Spiritus</h3>
+                        </span>
+                    </div></a>
+
+            </div>
+
+            <div class="portfolio_row">
+
+                <a href="https://www.behance.net/gallery/25896707/Walmart-Passion-Projects" target="_blank" class="wide_pic_resp"><div class="pic" id="wide-picc">
+                    <img src="media/portfolio/walmart_wide.png" class="pic-image pic-image-wide" alt="Pic"/>
+                    <span class="pic-caption bottom-to-top" style="cursor: pointer">
+                        <h3 class="pic-title">Walmart</h3>
+                    </span>
+                  </div></a>
+
+                  <a href="https://www.behance.net/gallery/25897257/Callisto-Website-ReDesign" target="_blank" class="reg_pic_resp"><div class="pic">
+                      <img src="media/portfolio/callisto.png" class="pic-image" alt="Pic"/>
+                        <span class="pic-caption bottom-to-top">
+                          <h3 class="pic-title">Callisto</h3>
+                        </span>
+                    </div></a>
+      
+                    <a href="https://www.behance.net/gallery/13704767/Re-tasking-Google-Glass-for-Law-Enforcement" target="_blank" class="reg_pic_resp"><div class="pic">
+                      <img src="media/portfolio/glass.jpg" class="pic-image" alt="Pic"/>
+                        <span class="pic-caption bottom-to-top">
+                          <h3 class="pic-title">Accenture Tech Labs</h3>
+                        </span>
+                    </div></a>
+
+                    
+            </div>
+
+            </div>
+
+
+            </div>
+
 
         </div>
       </div>
 
+
       <footer>
         <div class="footer_content">
           <div class="footer_icons">
-            <ul class="top_header_content_list">
-              <li class="top_header_content_list_item">
+            <ul class="bottom_header_content_list icon_list">
+              <li class="bottom_header_content_list_item icon_list_item">
                 <a class="fb_icon" href="https://www.facebook.com/berkeleyinnovation">
                   <img style="width: 24px;" src="media/socialmedia/facebook28.png">
                 </a>
               </li>
-              <li class="top_header_content_list_item">
+              <li class="bottom_header_content_list_item icon_list_item">
                 <a class="tw_icon" href="https://twitter.com/BInnovate">
                   <img style="width: 24px;" src="media/socialmedia/twitter2828.png">
                 </a>
               </li>
-              <li class="top_header_content_list_item">
+              <li class="bottom_header_content_list_item icon_list_item">
                 <a class="li_icon" href="https://www.linkedin.com/company/berkeley-innovation">
                   <img style="width: 24px;" src="media/socialmedia/linkedin28.png">
                 </a>
               </li>
-              <li class="top_header_content_list_item">
+              <li class="bottom_header_content_list_item icon_list_item">
                 <a class="yt_icon" href="https://www.youtube.com/user/berkeleyinnovation/videos">
                   <img style="width: 24px;" src="media/socialmedia/youtube28.png">
                 </a>
               </li>
-              <li class="top_header_content_list_item">
+              <li class="bottom_header_content_list_item icon_list_item">
                 <a class="ig_icon" href="https://www.instagram.com/berkeleyinnovation/">
                   <img style="width: 24px;" src="media/socialmedia/instagram28.png">
                 </a>
               </li>
             </ul>
           </div>
-            <ul class="top_header_content_list">
-              <li class="top_header_content_list_item">
-                <a href="http://berkeleyinnovation.org/">Home</a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a href="/about">About</a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a href="/process">Process</a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a href="/portfolio">Portfolio</a>
-              </li>
-              <li class="top_header_content_list_item">
-                <a href="/partner">Partner</a>
-              </li>
-            </ul>
-          <h4 class="footer_text">© 2016 Berkeley Innovation. All rights reserved.</h4>
+          <div class="footer_text_list">
+              <ul class="text_list">
+                  <li class="bottom_header_content_list_item text_list_item">
+                    <a href="http://berkeleyinnovation.org/">Home</a>
+                  </li>
+                  <li class="bottom_header_content_list_item text_list_item">
+                    <a href="/about">About</a>
+                  </li>
+                  <li class="bottom_header_content_list_item text_list_item">
+                    <a href="/process">Process</a>
+                  </li>
+                  <li class="bottom_header_content_list_item text_list_item">
+                    <a href="/portfolio">Portfolio</a>
+                  </li>
+                  <li class="bottom_header_content_list_item text_list_item">
+                    <a href="/partner">Partner</a>
+                  </li>
+                </ul>
+          </div>
+          <div class="footer_copyright">
+              <h4 class="footer_text">© 2016 Berkeley Innovation. All rights reserved.</h4>
+          </div>
         </div>
       </footer>
 
