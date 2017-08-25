@@ -1,5 +1,63 @@
+html {
+    background: #FBF3E2;
+}
+
 body {
     background-color: #ffffff;
     font-family: "Open Sans", sans-serif;
     color: #333333;
   }
+
+.first_caption {
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        background: #FBF3E2;
+}
+
+#bi {
+    height: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%,-50%);
+}
+
+.first_text_box {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+}
+
+.first_img {
+    width: 60%;
+    position: relative;
+    top: 0;
+    height: 100%;
+    float: right;
+    align-items: center;
+}
+
+.first_text {
+    position: relative;
+    top: 50%;
+    left: 55%;
+    transform: translate(-20%,-50%);
+}
+
+.title {
+    text-align: left;
+    text-transform: lowercase;
+    color: #4d4d4d;
+    font-size: 35px;
+}
+
+.lite {
+    font-weight: 300;
+    font-size: 30px;
+}
