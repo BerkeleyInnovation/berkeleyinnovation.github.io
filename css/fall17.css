@@ -1,0 +1,152 @@
+html {
+    background: #FBF3E2;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    color: #4d4d4d;
+  }
+
+.first_caption {
+        text-align: center;
+        height: 100vh;
+        width: 102%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        background: #FBF3E2;
+}
+
+#bi {
+    height: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%,-50%);
+}
+
+.first_text_box {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+}
+
+.first_img {
+    width: 60%;
+    position: relative;
+    top: 0;
+    height: 100%;
+    float: right;
+    align-items: center;
+}
+
+.first_text {
+    position: relative;
+    top: 50%;
+    left: 55%;
+    transform: translate(-20%,-50%);
+}
+
+.right_img {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+}
+
+.right_text_box {
+    width: 60%;
+    position: relative;
+    top: 0;
+    height: 100%;
+    float: right;
+    align-items: center;
+}
+
+.title {
+    text-align: left;
+    text-transform: lowercase;
+    color: #4d4d4d;
+    font-size: 35px;
+}
+
+.lite {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.lite_text {
+    font-weight: 300;
+}
+
+.second_slide {
+    background: #FFFCF6;
+    height: 80vh;
+}
+
+#post_it {
+    height: 55%;
+    border-right-color: #4d4d4d;
+    border-right-width: medium;
+    border-right-style: solid;
+    padding-right: 80px;
+    left: 15%;
+    top: 28%;
+    position: relative;
+}
+
+#chair_girl {
+    height: 55%;
+    border-left-color: #4d4d4d;
+    border-left-width: medium;
+    border-left-style: solid;
+    padding-left: 80px;
+    left: 0%;
+    top: 28%;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: -40px;
+}
+
+.left_align {
+    text-align: left;
+}
+
+.second_text {
+    left: 25%;
+    width: 80%;
+    color: #4d4d4d;
+}
+
+.slim {
+    width: 40%;
+}
+
+.third_text {
+    width: 80%;
+    position: relative;
+    top: 50%;
+    left: 24%;
+    transform: translate(-20%,-50%);
+}
+
+.right_align {
+    text-align: right;
+}
+
+#talking {
+    height: 55%;
+    border-right-color: #4d4d4d;
+    border-right-width: medium;
+    border-right-style: solid;
+    padding-right: 80px;
+    left: 15%;
+    top: 28%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -30px;
+}
