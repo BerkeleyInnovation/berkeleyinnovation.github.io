@@ -33,10 +33,20 @@
 
   <body>
     <!-- <div class="background"> -->
+        <script>
+            function responsive() {
+              var x = document.getElementById("myTopNav");
+              if (x.className === "top_header_content_list") {
+                x.className += " responsive";
+              } else {
+                x.className = "top_header_content_list";
+              }
+            }
+          </script>
 
     <header class="top_header">
       <div class="top_header_content">
-        <ul class="top_header_content_list">
+        <ul class="top_header_content_list" id="myTopNav">
           <li class="top_header_content_list_item">
             <a href="http://berkeleyinnovation.org/"><img id="bi_logo" src="media/logo.png"></a>
           </li>
