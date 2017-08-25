@@ -658,6 +658,60 @@ footer a:hover {
     margin-right: 55px;
   }
 
+  .wide_pic_resp {
+    flex-basis: 48%;
+  }
+
+  .portfolio_grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .portfolio_row {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+
+  #wide-picc {
+    min-width: 457px;
+    min-height: 221px;
+    position: relative;
+    overflow: hidden;
+    margin: 6px;
+    display: inline-block;
+    -webkit-animation: anima 2s;
+    -moz-animation: anima 2s;
+    -o-animation: anima 2s;
+    -ms-animation: anima 2s;
+    animation: anima 2s;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  #pushed-up-picc {
+    min-width: 221px;
+    min-height: 221px;
+    position: relative;
+    overflow: hidden;
+    padding-top: -230px;
+    display: inline-block;
+    -webkit-animation: anima 2s;
+    -moz-animation: anima 2s;
+    -o-animation: anima 2s;
+    -ms-animation: anima 2s;
+    animation: anima 2s;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
   /* responsive */
   
 
@@ -944,6 +998,49 @@ footer a:hover {
 
   /* PROCESS END */
 
+  /* PORTFOLIO BEG */
+  .portfolio_grid {
+    margin-left: 25px;
+  }
+
+
+  .wide_pic_resp {
+    flex-basis: 60%;
+  }
+
+
+  /* PORTFOLIO END */
     
-    
+  }
+
+  @media screen and (max-width:500px) {
+    /* PORTFOLIO START */
+
+    .reg_pic_resp {
+      flex-basis: 50%;
+    }
+
+    .wide_pic_resp {
+      flex-basis: 100%;
+    }
+
+    .pic-image {
+      width: 155px;
+      min-width: 0px;
+    }
+
+    .pic-image-wide {
+      width: 330px;
+    }
+
+    #wide-picc {
+      min-height: 0px;
+    }
+
+    #pushed-up-picc {
+      min-height: 0px;
+      min-width: 0px;
+    }
+
+    /* PORTFOLIO END */
   }
