@@ -1,0 +1,54 @@
+body{
+	margin:70px;
+	padding:0;
+	font-family: 'Karla', sans-serif;
+	font-size:15px;
+	font-weight:400;
+	opacity: 1;
+	color:#262626;
+}
+
+a{
+	text-decoration:none;
+	color:#f15a29;
+	cursor:pointer;
+}
+
+p{
+	padding-top:20px;
+	font-family: 'Karla';
+	font-weight:400;
+	width:1000px;
+}
+
+#title{
+	font-family: 'Karla';
+	font-weight:700;
+	font-size:50px;
+	width:600px;
+	padding-top:30px;
+}
+
+.section-header{
+	font-weight: 700;
+	font-size:20px;
+	padding-top:25px;
+	}
+
+.staff-container{
+	display:inline-block;
+	padding-top:20px;
+	padding-right:20px;
+	width:120px;
+}
+
+.project-container{
+	display:inline-block;
+	padding-top:20px;
+	padding-right:20px;
+	width:320px;
+}
+
+.caption{
+	padding-top:10px;
+}
