@@ -70,15 +70,18 @@ body {
     text-transform: lowercase;
     color: #4d4d4d;
     font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .lite {
     font-weight: 300;
     font-size: 30px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .lite_text {
     font-weight: 300;
+    font-family: "Open Sans", sans-serif;
 }
 
 .second_slide {
