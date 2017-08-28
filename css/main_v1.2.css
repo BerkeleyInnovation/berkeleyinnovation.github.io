@@ -723,6 +723,14 @@ footer a:hover {
 
   @media (max-width: 1200px) {
 
+    .subheader {
+      display: none;
+    }
+  
+    .subheader_content_list_item, .subheader li {
+      display: none;
+    }
+
     header a {
       padding: 15px 5px;
   }

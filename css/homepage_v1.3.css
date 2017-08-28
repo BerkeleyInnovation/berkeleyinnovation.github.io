@@ -628,6 +628,14 @@ footer a:hover {
 }
 
 @media (max-width: 1200px) {
+  .subheader {
+    display: none;
+  }
+
+  .subheader_content_list_item, .subheader li {
+    display: none;
+  }
+  
   #list_space {
     margin-right: 30%;
   }
