@@ -244,9 +244,11 @@ footer a:hover {
 @media (max-width: 1200px) {
     /*footer*/
         /* FOOTER START */
+    footer {
+        border-top: 1px solid #d4d4d4;
+    }
 
     .footer_content {
-      border-top: 1px solid #ff6600;
       margin: 0 auto;
       max-width: 90%;
       text-align: left;
@@ -267,15 +269,21 @@ footer a:hover {
     margin: 10px 0px 20px 0px;
     padding-left: 0px;
     font-size: .5em;
+    left: 0px;
 }
 
 .footer_text_list {
   left: 0px;
+  top: 0px;
 }
 
 .footer_copyright {
   margin-top: 20px;
   padding-left: 0px;
+}
+
+.footer_icons {
+    left: 0px;
 }
 
     /* FOOTER END */
