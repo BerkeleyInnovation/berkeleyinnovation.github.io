@@ -92,7 +92,7 @@ body {
 
 .second_slide {
     background: #FFFCF6;
-    height: 80vh;
+    height: 100vh;
 }
 
 #post_it {
@@ -277,10 +277,6 @@ footer a:hover {
         transform: none;
     }
 
-    .title {
-        text-align: center;
-    }
-
     .first_title {
         font-size: 28px;
         text-align: center;
@@ -288,6 +284,7 @@ footer a:hover {
 
     .lite {
         font-size: 20px;
+        text-align: center;
     }
 
     #bi {
@@ -302,7 +299,10 @@ footer a:hover {
 
     .second_slide {
         width: 110%;
-        height: 100vh;
+    }
+
+    .subtitle {
+        text-align: center;
     }
 
     .right_img {
