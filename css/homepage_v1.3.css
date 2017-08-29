@@ -550,7 +550,7 @@ footer a:hover {
   margin-right: 50%;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 800px) {
   #list_space {
     margin-right: 40%;
   }
@@ -558,7 +558,7 @@ footer a:hover {
 
 /* responsive */
 
-@media (max-width: 640px) {
+@media (max-width: 800px) {
   .subheader {
     display: none;
   }
@@ -627,7 +627,7 @@ footer a:hover {
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .subheader {
     display: none;
   }
@@ -635,7 +635,7 @@ footer a:hover {
   .subheader_content_list_item, .subheader li {
     display: none;
   }
-  
+
   #list_space {
     margin-right: 30%;
   }
