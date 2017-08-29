@@ -42,15 +42,20 @@ header a:hover {
 }
 
 .top_header {
-  top: 30px;
-  right: 18px;
-  left: 80px;
+  top: 20px;
+  right: 0;
+  left: 0;
   position: absolute;
   display: block;
-  z-index: 1000;
+  height: 100px;
+  min-width: 1000px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-/*
+
 .top_header_content {
   margin: 0 auto;
   max-width: 980px;
@@ -62,11 +67,10 @@ header a:hover {
 }
 
 .top_header_content_list {
-  text-align: justify;
-  list-style: none;
-  align-items: center;
-  display: inline-block;
-  margin-left: -38px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 ul.top_header_content_list li {
@@ -76,29 +80,9 @@ ul.top_header_content_list li {
   margin-left: 7px;
   margin-right: 7px;
 }
-*/
+
 
 /* New code starts */
-ul.top_header_content_list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-
-  /*text-align: justify;
-  display: inline-block;
-  align-items: center;*/
-}
-
-ul.top_header_content_list li {
-  float: left;
-  /*display: inline;*/
-  text-align: center;
-  height: 65px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 /* new code ends */
 
@@ -106,7 +90,7 @@ ul.top_header_content_list li.hamburger {
   display: none;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 800px) {
 
   #how_we_think {
     font-size: 0.6em;
@@ -142,9 +126,7 @@ ul.top_header_content_list li.hamburger {
 
     font-size: 35px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: -5px;
   }
 
   #how_we_think {
@@ -250,10 +232,6 @@ ul.top_header_content_list li.hamburger {
   pointer-events: none;
 }
 
-#list_space {
-  margin-left: 240px;
-  margin-right: 130px;
-}
 
 .stripe {
   background-color: #004250;
