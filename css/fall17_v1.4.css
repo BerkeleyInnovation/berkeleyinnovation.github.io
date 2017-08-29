@@ -320,11 +320,12 @@ footer a:hover {
 
     .second_slide {
         width: 110%;
+        height: 110vh
     }
 
     .right_img {
         display: block;
-        height: 38%;
+        height: 35%;
         width: 100%;
     }
 
@@ -358,17 +359,17 @@ footer a:hover {
     /* THIRD PAGE START */
     
     #third_slide {
-        margin-top: -25px;
+        margin-top: -20px;
         height: 180vh;
     }
 
     #third_img {
         margin-right: 10%;
-        margin-top: -65%;
         display: block;
         height: 18%;
         width: 100%;
         text-align: center;
+        padding-bottom: 2em;
     }
 
     #chair_girl {
@@ -377,7 +378,6 @@ footer a:hover {
         padding-left: 0px;
         position: unset;
         padding-top: 0px;
-        padding-bottom: 0px;
         margin-top: 0px;
     }
 
@@ -433,12 +433,18 @@ footer a:hover {
         margin-top: 0px;
     }
 
+    .right_text_box {
+        height: auto;
+    }
+
     /* FOURTH PAGE END */
 
     /*footer*/
         /* FOOTER START */
     footer {
         border-top: 1px solid #d4d4d4;
+        width: 105%;
+        padding-bottom: 20px;
     }
 
     .footer_content {
@@ -466,17 +472,18 @@ footer a:hover {
 }
 
 .footer_text_list {
-  left: 0px;
-  top: 0px;
+    left: -25px;
+    top: 0px;
 }
 
 .footer_copyright {
-  margin-top: 20px;
-  padding-left: 0px;
+    margin-top: 30px;
+    padding-left: 15px;
 }
 
 .footer_icons {
-    left: 0px;
+    left: 15px;
+    top: 5px;
 }
 
     /* FOOTER END */
