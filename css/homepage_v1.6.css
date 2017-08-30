@@ -82,6 +82,11 @@ ul.top_header_content_list li {
   margin-right: 7px;
 }
 
+.nav_item {
+  position: relative;
+  top: -5px;
+}
+
 
 /* New code starts */
 
