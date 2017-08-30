@@ -53,6 +53,7 @@ header a:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  z-index: 1000;
 }
 
 
@@ -153,13 +154,13 @@ ul.top_header_content_list li.hamburger {
 
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:800px) {
   ul.top_header_content_list.responsive {position: relative;}
 
   ul.top_header_content_list.responsive li.hamburger {
     position: absolute;
     right: 0;
-    top: 0;
+    top: .9em;
 
     display: flex;
     align-items: center;
@@ -530,7 +531,7 @@ footer a:hover {
 
 @media (max-width: 800px) {
   #list_space {
-    margin-right: 40%;
+    display: none;
   }
 }
 
@@ -615,7 +616,7 @@ footer a:hover {
   }
 
   #list_space {
-    margin-right: 30%;
+    display: none;
   }
 
   .text_box {
