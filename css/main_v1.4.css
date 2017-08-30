@@ -896,8 +896,7 @@ footer a:hover {
 }
 
 .company_grid {
-  position: relative;
-  left: -20px;
+  padding-right: 20px;
 }
 
     /* BODY END */
