@@ -1,0 +1,496 @@
+@import url("https://use.typekit.net/ula0avf.css");
+html {
+    background-color: #FFFCEE
+}
+
+body {
+    background-color: #ffffff;
+    font-family: proxima-nova, sans-serif;
+    color: #283241;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+  }
+
+/*START FIRST PAGE*/
+  .first_page {
+    text-align: center;
+    min-height: 573px;
+    height: 100vh;
+    width: 102%;
+    left: -1%;
+    background-image: url("../media/recruitment_background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .back {
+    position: absolute;
+    left: 85px;
+    top: 50px;
+    color: #3C5B81;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
+
+  .back:hover .home_link {
+    color: #98C1DA;
+  }
+
+  .back:hover .back_line {
+    background-color: #f29e74;
+  }
+
+  .back_line {
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: #F48349;
+    top: 44%;
+    left: -25px;
+  }
+
+  .home_link:link {
+    text-decoration: none;
+    color: #3C5B81;
+  }
+
+  .home_link:visited {
+    color: #3C5B81;
+  }
+
+
+  .logo {
+    flex-basis: 400px;
+    width: 375px;
+    margin-right: 2%;
+    padding-bottom: 30px;
+  }
+
+  .title_text_container {
+    flex-basis: 40%;
+    color: #3C5B81;
+    margin-left: 5%;
+  }
+
+
+  .HCD_text {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    line-height: 50px;
+  }
+
+  .orange_text {
+    color: #F48349;
+    position: relative;
+  }
+
+  
+  .dotter {
+    display: inline-block;
+    background-color: #F48349;
+    border-radius: 50%;
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    top: 7px;
+    left: 1px;
+    visibility: hidden;
+  }
+
+
+  .main_subtitle {
+    letter-spacing: 2px;
+    font-weight: 600;
+    /*fixing this width fixes the width of the entire title text*/
+    width: 515px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .BI_text {
+    display: inline-block;
+  }
+
+  .subcircle {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #F48349;
+    width: 10px;
+    padding-top: 10px;
+  }
+
+  .spring_text {
+    display: inline-block;
+  }
+
+  /*END FIRST PAGE*/
+
+  /*START SECOND PAGE*/
+  .second_page {
+    text-align: center;
+    min-height: 573px;
+    height: 98vh;
+    width: 102%;
+    left: -1%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF7E9;
+  }
+
+  .corner_dot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 175px;
+  }
+
+  .scattered_dot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 175px;
+  }
+
+  .left_column {
+    flex-basis: 25%;
+    margin: 0 2%;
+    min-width: 261px;
+    max-width: 320px;
+    background-color: rgba(250, 247, 233, 0.5);
+
+  }
+
+  .invite {
+    color: #3C5B81;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: left;
+    letter-spacing: 1.5px;
+  }
+
+  .apply_info {
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 60px;
+    font-size: 0.9rem;
+  }
+
+  .apply_button {
+    width: 100%;
+    margin: auto;
+    background-color: #F48349;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    letter-spacing: 2px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+  }
+
+  .apply_button:hover {
+    background-color: #f29e74;
+  }
+
+  .apply_link:link {
+    text-decoration: none;
+  }
+
+  .right_column {
+    flex-basis: 30%;
+    color: #3C5B81;
+    font-weight: 600;
+    letter-spacing: 3px;
+    align-items: center;
+    position: relative;
+    margin-left: 10%;
+    margin-right: -40px;
+  }
+
+  .event {
+    display: block;
+    text-align: left;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .event_name {
+    display: inline-block;
+    position: absolute;
+
+  }
+
+  .event_info {
+    display: inline-block;
+    position: relative;
+    left: 250px;
+  }
+
+  .orange_line {
+    position: absolute;
+    top: 0;
+    left: 210px;
+    height: 380px;
+    width: 2px;
+    background-color: #F48349;
+  }
+
+  /*END SECOND PAGE*/
+
+  /*START THIRD PAGE*/
+  .third_page {
+    text-align: center;
+    min-height: 573px;
+    height: 82vh;
+    width: 102%;
+    left: -1%;
+    background-image: url("../media/recruitment_background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .resources_container {
+    flex-basis: 30%;
+    position: relative;
+    text-align: left;
+  }
+
+  .dot_logo {
+    flex-basis: 280px;
+    width: 280px;
+    margin-left: 10%;
+    padding-bottom: 0;
+  }
+
+  .side_dots {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -45px;
+  }
+
+  .resources_title {
+    color: #3C5B81;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 2rem;
+  }
+
+  .resources_info {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    line-height: 22px;
+  }
+
+  .resource_link {
+    color: #3C5B81;
+  }
+
+  /*END THIRD PAGE*/
+
+/*responsive*/
+
+@media (max-width: 700px) {
+   
+    /*START FIRST PAGE*/
+    .first_page {
+        display: block;
+        height: 100%;
+    }
+
+    .back {
+      width: 40px;
+      left: 25px;
+      top: 40px;
+      font-size: 0.8rem;
+    }
+
+
+
+    .logo {
+        display: block;
+        flex-basis: auto;
+        width: 200px;
+        margin: auto;
+        padding-bottom: 0;
+        padding-top: 120px;
+
+    }
+
+    .title_text_container {
+        display: block;
+        margin: 50px 5px;
+    }
+
+    .main_subtitle {
+        position: absolute;
+        top: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .HCD_text {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 30px;
+  }
+
+  .BI_text {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .subcircle {
+    display: block;
+    margin: 5px auto;
+  }
+
+  .spring_text {
+    display: block;
+  }
+
+    .dotter {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+  }
+
+  /*END FIRST PAGE*/
+/*START SECOND PAGE*/
+
+    .corner_dot {
+    display: none;
+    }
+
+    .scattered_dot {
+        right: -60px;
+        top: 330px;
+    }
+
+    .second_page {
+        height: 100%;
+        display: block;
+    }
+
+    .left_column {
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    .right_column {
+    margin: auto;
+    width: 320px;
+    font-size: 0.8rem;
+    letter-spacing: 2.5px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    }
+
+    .event {
+    display: block;
+    text-align: left;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .event_name {
+    display: inline-block;
+    position: absolute;
+
+  }
+
+  .event_info {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+  }
+
+  .orange_line {
+    position: absolute;
+    top: 0;
+    left: 170px;
+    height: 340px;
+    width: 2px;
+    background-color: #F48349;
+  }
+
+/*END SECOND PAGE*/
+
+/*START THIRD PAGE*/
+    .third_page {
+        display: block;
+        height: 100%;
+        margin-top: -2px;
+    }
+
+    .resources_container {
+        display: block;
+        width: 80vw;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    .side_dots {
+        height: 89%;
+        top: 50px;
+        left: -40px;
+    }
+
+    .dot_logo {
+        display: block;
+        width: 250px;
+        margin: auto;
+        margin: 50px auto;
+    }
+
+
+
+/*END THIRD PAGE*/
+
+
+
+
+
+}
