@@ -64,10 +64,11 @@ line-height: 45px;
 
 table {
 	width: 100%;
-	max-width: 1300px;
+  max-width: 1300px;
 	min-width: 700px;
 	font-size: 18px;
 	height: 99%;
+  margin: auto;
 
 }
 
