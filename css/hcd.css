@@ -113,11 +113,12 @@ td {
  }
 
 .bott_blob_container {
-  width: 100%;
+  width: 150%;
   min-width: 800px;
+  max-width: 2000px;
   position: absolute;
-  bottom: -97%;
-  left: -50px;
+  bottom: -99%;
+  left: -90px;
   z-index: -1;
 }
 
