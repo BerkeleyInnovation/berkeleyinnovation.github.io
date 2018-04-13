@@ -42,6 +42,7 @@ line-height: 45px;
 
 .top_blob_container {
   width: 100%;
+  left: 40%;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -114,7 +115,7 @@ td {
 .bott_blob_container {
   width: 100%;
   position: absolute;
-  bottom: -10px;
+  bottom: -20%;
   z-index: -1;
 }
 
@@ -238,6 +239,7 @@ td {
 .bott_blob_container {
   width: 100%;
   position: absolute;
+  bottom: -10px;
   z-index: -1;
 }
 
