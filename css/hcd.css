@@ -124,6 +124,10 @@ td {
  	font-weight: bold;
  }
 
+ td.empty {
+ 	background-color: rgba(169, 169, 169, 0.8);
+ }
+
  .caption {
  font-size: 14px;
   line-height: 12px;
