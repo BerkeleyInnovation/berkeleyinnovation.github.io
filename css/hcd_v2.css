@@ -41,11 +41,9 @@ line-height: 45px;
 }
 
 .top_blob_container {
-  width: 140%;
-  max-width: 1000px;
+  width: 100%;
   position: absolute;
-  top: 0px;
-  left: 50%;
+  top: 0;
   z-index: -1;
 }
 
@@ -113,12 +111,9 @@ td {
  }
 
 .bott_blob_container {
-  width: 150%;
-  min-width: 800px;
-  max-width: 2000px;
+  width: 100%;
   position: absolute;
-  bottom: -99%;
-  left: -90px;
+  bottom: -10px;
   z-index: -1;
 }
 
@@ -240,11 +235,8 @@ td {
  }
 
 .bott_blob_container {
-  width: 140%;
-  min-width: 800px;
+  width: 100%;
   position: absolute;
-  bottom: -260px;
-  left: -70px;
   z-index: -1;
 }
 
