@@ -129,6 +129,12 @@ td {
 
 
 @media (max-width: 800px) {
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+ }
+
 .mainFont {
   font-family: 'Karla', sans-serif;
   font-weight: 400;
