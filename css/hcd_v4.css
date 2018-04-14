@@ -98,7 +98,7 @@ td {
  }
 
  .caption {
- font-size: 14px;
+  font-size: 14px;
   line-height: 13px;
   color: #525252;
   font-weight: 300;
@@ -107,6 +107,10 @@ td {
   -moz-transform:scale(1.4,1);
   -ms-transform:scale(1.4,1);
   -o-transform:scale(1.4,1);
+ }
+
+ br {
+  line-height: 20px;
  }
 
 .bott_blob_container {
