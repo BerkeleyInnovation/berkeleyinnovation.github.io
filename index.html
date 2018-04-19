@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Berkeley Innovation</title>
-  <link rel="stylesheet" type="text/css" href="css/homepage_v4.css">
+  <link rel="stylesheet" type="text/css" href="css/homepage_v5.css">
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,8 +14,6 @@
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,900' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://use.typekit.net/ula0avf.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/ula0avf.css">
 
   <script src="js/jquery-1.12.4.min.js"></script>
@@ -59,21 +57,23 @@
             <div class="top_header_content">
               <ul class="top_header_content_list" id="myTopNav">
                 <li class="top_header_content_list_ite top_item">
-                  <a href="/about" id="about"><span class="highlighter" style="background-color: #ffffff;">ABOUT US</span></a>
+                  <a href="/about" id="about">ABOUT US</a>
+                  <div class="circle"></div>
                 </li>
                 <li class="top_header_content_list_item">
-                  <a href="/our_work" id="process"><span class="highlighter" style="background-color: #ffffff;">OUR WORK</span></a>
+                  <a href="/our_work" id="process">OUR WORK</a>
+                  <div class="circle"></div>
                 </li>
                 <li class="top_header_content_list_item logo_item">
-                  <a href="http://berkeleyinnovation.org/">
-                  	<img id="bi_logo" src="media/black_logo.svg">
-                  </a>
+                  <a href="http://berkeleyinnovation.org/"><img id="bi_logo" src="media/BI_Logo.png"></a>
                 </li>
                 <li class="top_header_content_list_item">
-                  <a href="/services"><span class="highlighter" style="background-color: #ffffff;">SERVICES</span></a>
+                  <a href="/services">SERVICES</a>
+                  <div class="circle"></div>
                 </li>
                 <li class="top_header_content_list_item">
-                  <a href="/contact_us" id="partner"><span class="highlighter" style="background-color: #ffffff;">CONTACT</span></a>
+                  <a href="/contact_us" id="partner">CONTACT</a>
+                  <div class="circle"></div>
                 </li>
       
                 <li class="hamburger">
@@ -85,36 +85,16 @@
           </header>
   </div>
 
-  <div class="top_blob_container">
-  	<img id="top_blob" src="media/top_blob.svg">
-  </div>
-
-<div class="flexer">
-<div class="inner_flexer">
-<div class="title_container mainFont">
-	<div class="inner_title">
-	HCD 2018<br>MAKING MEANING
-	</div>
-</div>
-<div class="blurb_container subFont">
-	<div class="date_info">Saturday 04.14.18 from 10am—4pm</div>
-	<div class="blurb">
-		Join Berkeley Innovation for a campus-wide conference as we discover how meaning is created through design. Connect with design leaders from Google, Blend, UCSF, Taylor Design, and other companies as they share their insights through a series of talks, workshops, and an open Q&A panel.
-	</div>
-	<div class="flex_link_container"><a href="http://bit.ly/hcd2018-tix" class="tix_link"><div class="tix_button"><div class="tix_text">Buy Tickets</div></div></a></div>
-</div>
-</div>
-</div>
+    <video class="vid" id="adam" poster="media/heroes/static.png" autoplay loop>
+      <source class="vid" id="adam" src="media/heroes/hero.mp4" type="video/mp4"></source>
+    </video>
 
 
 
-  <div class="bott_blob_container">
-  	<img id="bott_blob" src="media/bott_blob.svg"></div>
+    <div class="bgimg-mobile">
 
-   
+    </div>
 
-
-  	<!-- 
     <div class="mobile-body-content">
       <div class="mobile-body-content-text">
         <h1>UC Berkeley's</h1>
@@ -127,16 +107,26 @@
           <div id="join_us">JOIN US</div>
         </a>
       </div>
-    </div>-->
+    </div>
 
 
     <!--       <div class="content"> -->
     <div class="content_body index_content">
 
+      <div class="text_box">
+        <h1>UC Berkeley's</h1>
+        <h1>Human-Centered</h1>
+        <h1>Design Consultancy</h1>
+        <a href="/services" onclick="ga('send', 'event','index_process_button', 'click')">
+          <div id="how_we_think">WORK WITH US</div>
+        </a>
+        <a href="/spring18" onclick="ga('send', 'event','index_join_button', 'click')">
+          <div id="join_us">JOIN US</div>
+        </a>
+      </div>
 
     </div>
 
-    <!--
     <footer>
        <div class="footer_content">
 
@@ -163,7 +153,7 @@
             <h4 class="footer_text">© 2018 Berkeley Innovation. All rights reserved.</h4>
         </div>
       </div>
-    </footer>-->
+    </footer>
 
   <!--     </div> -->
 
