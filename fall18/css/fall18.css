@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 1px solid black; */
+}
+@font-face {
+font-family: "Helvetica";
+src: url("../assets/fonts/Helvetica Bold.ttf");
+}
+@font-face {
+font-family: "GT America";
+src: url("../assets/fonts/GT America Extended.ttf");
+}
+html,
+body {
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+h1 {font-family: 'Helvetica'; font-size: 28px; line-height: 28px;}
+h2 {font-family: 'Helvetica'; font-size: 24px; line-height: 24px;}
+b {font-family: 'GT America'; font-size: 24px; line-height: 24px; font-weight: normal;}
+p {font-family: 'GT America'; font-size: 18px; line-height: 22px; text-align: center;}
+
+.main {padding: 20% 0;}
+.link-mobile {text-align: center;}
+.hide-mobile {display: none;}
+.arrow {bottom: -10%; left: 45%;} .bounce {animation: bounce 2s infinite;}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+
+.main-graphic {background-image: url("../assets/main-graphic.svg"); height: 60vh;}
+.timeline-graphic {background-image: url("../assets/bolt.svg"); height: 8vh;}
+.parts-graphic {background-image: url("../assets/parts-graphic.svg"); height: 30vh;}
+
+/* tablets */
+@media (min-width: 768px) {
+  h1 {font-size: 32px; line-height: 32px;}
+  p {text-align: left;}
+  .link-mobile, .arrow, .graphic-mobile, .timeline-graphic-mobile {display: none;}
+  .hide-mobile {display: inline-block;}
+  .links {display: inline-block; margin-top: 10%}
+  .timeline-graphic {background-image: url("../assets/timeline-graphic.svg"); height: 60vh;}
+}
+
+/* desktops */
+@media (min-width: 992px) {
+  .container {width: 768px;}
+  .graphic {margin: 0;}
+}
+
+/* large desktops */
+@media (min-width: 1200px) {
+
+}
